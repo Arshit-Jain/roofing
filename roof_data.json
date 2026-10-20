@@ -1,0 +1,196 @@
+{
+  "property": {
+    "name": "Sample property"
+  },
+  "project_totals": {
+    "total_roof_area_sf": 7923,
+    "predominant_pitch": "8:12",
+    "predominant_pitch_degrees": 33.7,
+    "gross_area_sf": 8557,
+    "waste_percentage": 8,
+    "ice_water_barrier_sf": 2859,
+    "roof_planes": 31,
+    "structures": 1
+  },
+  "edge_lengths": {
+    "eave_lf": 383,
+    "rake_lf": 66,
+    "total_perimeter_lf": 449,
+    "ridge_lf": 160,
+    "hip_lf": 371,
+    "valley_lf": 269,
+    "overhang_offset_lf": 54
+  },
+  "roof_planes": [
+    {
+      "name": "Upper Roof",
+      "area_sf": 7791,
+      "area_with_waste_sf": 8414,
+      "pitch": "8:12",
+      "percentage_of_total": 98.3
+    },
+    {
+      "name": "Hidden Under Overhang 1",
+      "area_sf": 25,
+      "area_with_waste_sf": 27,
+      "pitch": "8:12",
+      "percentage_of_total": 0.3
+    },
+    {
+      "name": "Hidden Under Overhang 2",
+      "area_sf": 18,
+      "area_with_waste_sf": 19,
+      "pitch": "8:12",
+      "percentage_of_total": 0.2
+    },
+    {
+      "name": "Hidden Under Overhang 3",
+      "area_sf": 35,
+      "area_with_waste_sf": 38,
+      "pitch": "8:12",
+      "percentage_of_total": 0.4
+    },
+    {
+      "name": "Lower Eave 1",
+      "area_sf": 72,
+      "area_with_waste_sf": 78,
+      "pitch": "8:12",
+      "percentage_of_total": 0.9
+    }
+  ],
+  "areas_by_pitch": [
+    {
+      "pitch": "8:12",
+      "area_sf": 7941,
+      "squares": 79.4,
+      "faces": 31,
+      "percentage_of_roof": 100.2
+    },
+    {
+      "pitch": "Obstructions deducted",
+      "area_sf": -18,
+      "squares": -0.2,
+      "faces": null,
+      "percentage_of_roof": -0.2
+    }
+  ],
+  "roof_sections": [
+    {
+      "name": "Main Roof",
+      "area_sf": 7791
+    },
+    {
+      "name": "Lower Eave 1",
+      "area_sf": 72
+    },
+    {
+      "name": "Hidden Overhangs - Total (3)",
+      "area_sf": 78
+    }
+  ],
+  "measurements": {
+    "total_roof_area_sf": 7923,
+    "footprint_projected_area_sf": 6592,
+    "gross_area_with_waste_sf": 8557,
+    "roofing_squares_net": 79.2,
+    "roofing_squares_gross": 85.6,
+    "slope_multiplier": 1.2019,
+    "predominant_pitch": "8:12",
+    "roof_planes": 31,
+    "ice_water_eave_perimeter_lf": 383
+  },
+  "materials": [
+    {
+      "material": "Field Shingles",
+      "quantity": 238,
+      "unit": "bundles",
+      "quantity_with_waste": 257,
+      "unit_with_waste": "bundles",
+      "based_on": "1 bundle = 33.3 sq ft · does not include waste / 1 bundle = 33.3 sq ft + 8% waste (set by you)"
+    },
+    {
+      "material": "Underlayment",
+      "quantity": 7923,
+      "unit": "SF",
+      "quantity_with_waste": 8557,
+      "unit_with_waste": "SF",
+      "based_on": "7,923 SF net + 8% waste"
+    },
+    {
+      "material": "Ice & Water Shield",
+      "quantity": 383,
+      "unit": "LF",
+      "quantity_with_waste": null,
+      "unit_with_waste": null,
+      "based_on": "383 ft eave perimeter · membrane coverage 2,859 SF (code-trigger basis)"
+    },
+    {
+      "material": "Ridge Cap",
+      "quantity": 531,
+      "unit": "LF",
+      "quantity_with_waste": 573,
+      "unit_with_waste": "LF",
+      "based_on": "160 ft ridge + 371 ft hip + 8% waste"
+    },
+    {
+      "material": "Starter Strip",
+      "quantity": null,
+      "unit": null,
+      "quantity_with_waste": 5,
+      "unit_with_waste": "bundles",
+      "based_on": "383 ft eaves + 8% waste ÷ 100 LF/bundle"
+    },
+    {
+      "material": "Drip Edge — Eaves",
+      "quantity": 383,
+      "unit": "LF",
+      "quantity_with_waste": 414,
+      "unit_with_waste": "LF",
+      "based_on": "383 ft eaves (the gutter line) + 8% waste"
+    },
+    {
+      "material": "Rake Edge (gable drip edge)",
+      "quantity": 66,
+      "unit": "LF",
+      "quantity_with_waste": 71,
+      "unit_with_waste": "LF",
+      "based_on": "66 ft rakes (sloped gable edges) + 8% waste"
+    },
+    {
+      "material": "Drip edge total · eaves + rakes",
+      "quantity": 449,
+      "unit": "LF",
+      "quantity_with_waste": 485,
+      "unit_with_waste": "LF",
+      "based_on": "449 ft (eave + rake) + 8% waste"
+    },
+    {
+      "material": "Valley Flashing",
+      "quantity": 269,
+      "unit": "LF",
+      "quantity_with_waste": 30,
+      "unit_with_waste": "pcs",
+      "based_on": "269 ft valley + 8% waste = 290.5 LF"
+    },
+    {
+      "material": "Overhang Offset Flashing",
+      "quantity": 54,
+      "unit": "LF",
+      "quantity_with_waste": 6,
+      "unit_with_waste": "sticks",
+      "based_on": "58.4 LF upper-eave-over-lower-roof junction (incl. 8% waste)"
+    }
+  ],
+  "gutters": {
+    "total_gutter_lf": 383,
+    "gutter_type": "5″ K-style aluminum",
+    "downspouts": null
+  },
+  "extraction_notes": [
+    "Obstructions deducted: 18 SF (15 traced obstructions / 15 vents).",
+    "Applied waste factor is 8% across calculations.",
+    "Downspouts were reported as 'not surveyed on this trace'.",
+    "Edge lengths with 8% waste: Eave 414 LF, Rake Edge 71 LF, Total Perimeter 485 LF, Ridge 173 LF, Hip 401 LF, Valley 291 LF, Overhang Offset 58 LF.",
+    "Waste factor reference table shows: 5% = 8,319 SF (83.2 sq), 8% = 8,557 SF (85.6 sq), 10% = 8,715 SF (87.2 sq), 15% = 9,111 SF (91.1 sq), 20% = 9,508 SF (95.1 sq)."
+  ]
+}

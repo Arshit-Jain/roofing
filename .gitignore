@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+!.env.*.example
+apps/web/.env.local
+apps/web/.next/
+apps/web/public/geometry/demo_roofr_83_rue_falardeau.json
+apps/web/node_modules/
+services/api/.pytest_cache/
+services/api/.mypy_cache/
+services/api/.ruff_cache/
+services/api/**/*.py[cod]
+__pycache__/
+node_modules/
+dist/
+build/

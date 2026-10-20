@@ -1,0 +1,2 @@
+[console_scripts]
+roofing-api = app.run:main

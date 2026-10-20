@@ -1,0 +1,128 @@
+# Roofr-derived candidate roof model for 17 Deacon Place, St. Albert, Alberta.
+# Coordinates are feet; height is relative to the lowest detected eave.
+# Roof surfaces only. No walls or absolute elevation are reported in the source PDF.
+mtllib 17_deacon_place_roof.mtl
+o DeaconPlaceRoofCandidate
+v 30.109327 0.000000 -52.819500
+v 30.109327 1.062795 -50.268791
+v 20.877895 1.063469 -50.268791
+v 20.877895 0.000673 -52.819500
+v 4.264306 0.030550 -52.819500
+v 19.082917 0.031505 -52.819500
+v 11.673555 3.105232 -45.492207
+v 19.082917 0.013065 -50.950372
+v 11.673555 3.107746 -43.510478
+v 35.729796 0.007436 -50.950372
+v 20.877895 6.205246 -36.070581
+v 19.082917 6.204912 -36.070581
+v 4.264306 0.015564 -21.190790
+v 35.729796 0.004028 -19.622744
+v 34.897730 0.358843 -20.493481
+v 28.709546 2.935584 -20.493481
+v 28.709546 2.938032 -28.224127
+v -0.000000 0.000000 -25.801054
+v -0.000000 0.000547 -35.170455
+v 2.509503 0.837048 -35.170455
+v 2.509503 0.836501 -25.801054
+v 5.019121 0.000508 -35.170455
+v 5.019121 -0.000038 -25.801054
+v 21.689296 0.011539 -21.190790
+v 21.689296 0.011922 -19.622744
+v 22.551547 0.372961 -20.493481
+v 25.821947 0.010751 -19.622744
+v 22.886372 0.866778 -21.676663
+v 25.821947 0.866551 -21.676663
+v 31.655567 0.000316 -19.622744
+v 31.655567 0.856115 -21.676663
+v 34.578633 0.855889 -21.676663
+v 35.729796 1.683974 -21.137301
+v 35.729796 0.021964 -17.148476
+v 27.773147 0.010835 -17.148476
+v 23.683425 1.693553 -21.137301
+v 16.018670 4.889042 -11.664137
+v 4.264306 0.010178 -0.000000
+v 4.264306 0.000000 -22.237156
+v 16.018670 4.897639 -22.237156
+v 27.773147 0.011051 -0.000000
+v 22.733708 2.099695 -22.237156
+v 22.733708 2.099780 -21.137301
+
+# Roofr facet 1 | 5:12 | report area 25.0 SF
+g roofr-facet-01
+usemtl pitch_5_12
+f 4 3 2 1
+
+# Roofr facet 2 | 5:12 | report area 58.0 SF
+g roofr-facet-02
+usemtl pitch_5_12
+f 7 6 5
+
+# Roofr facet 3 | 5:12 | report area 16.0 SF
+g roofr-facet-03
+usemtl pitch_5_12
+f 7 9 8 6
+
+# Roofr facet 4 | 5:12 | report area 203.0 SF
+g roofr-facet-04
+usemtl pitch_5_12
+f 8 9 12 11 10
+
+# Roofr facet 5 | 5:12 | report area 248.0 SF
+g roofr-facet-05
+usemtl pitch_5_12
+f 9 7 5 13 12
+
+# Roofr facet 6 | 5:12 | report area 265.0 SF
+g roofr-facet-06
+usemtl pitch_5_12
+f 17 16 15 14 10 11
+
+# Roofr facet 7 | 4:12 | report area 25.0 SF
+g roofr-facet-07
+usemtl pitch_4_12
+f 21 20 19 18
+
+# Roofr facet 8 | 4:12 | report area 25.0 SF
+g roofr-facet-08
+usemtl pitch_4_12
+f 20 21 23 22
+
+# Roofr facet 9 | 5:12 | report area 209.0 SF
+g roofr-facet-09
+usemtl pitch_5_12
+f 24 17 11 12 13
+
+# Roofr facet 10 | 5:12 | report area 32.0 SF
+g roofr-facet-10
+usemtl pitch_5_12
+f 26 16 17 24 25
+
+# Roofr facet 11 | 5:12 | report area 8.0 SF
+g roofr-facet-11
+usemtl pitch_5_12
+f 29 28 26 25 27
+
+# Roofr facet 12 | 5:12 | report area 8.0 SF
+g roofr-facet-12
+usemtl pitch_5_12
+f 15 32 31 30 14
+
+# Roofr facet 13 | 5:12 | report area 43.0 SF
+g roofr-facet-13
+usemtl pitch_5_12
+f 36 35 34 33
+
+# Roofr facet 14 | 5:12 | report area 204.0 SF
+g roofr-facet-14
+usemtl pitch_5_12
+f 40 39 38 37
+
+# Roofr facet 15 | 5:12 | report area 189.0 SF
+g roofr-facet-15
+usemtl pitch_5_12
+f 35 36 43 42 40 37 41
+
+# Roofr facet 16 | 5:12 | report area 145.0 SF
+g roofr-facet-16
+usemtl pitch_5_12
+f 37 38 41

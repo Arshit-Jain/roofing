@@ -1,0 +1,208 @@
+{
+  "schemaVersion": "1.0",
+  "geometryId": "demo-roofr-83-rue-falardeau-v1",
+  "status": "demo",
+  "source": "demo",
+  "confidence": "illustrative",
+  "estimatedHeights": true,
+  "units": "feet",
+  "coordinateSystem": {
+    "planAxes": "u is right and v is up on the Roofr Diagram page",
+    "heightAxis": "h is above the lowest eave; absolute level is estimated",
+    "threeJsMapping": "X=u, Y=h, Z=-v",
+    "orientation": "Keep the page orientation; do not rotate north-up"
+  },
+  "compass": {
+    "north": "-u",
+    "east": "+v",
+    "south": "+u",
+    "west": "-v",
+    "source": "Compass printed on Roofr Diagram page 2"
+  },
+  "sourceReference": {
+    "viewer": "roof3d.html",
+    "report": "83 Rue Falardeau, Gatineau, QC J8X 3E1.pdf",
+    "method": "Hand-authored illustrative coordinates and pitch-derived heights in the supplied reference viewer"
+  },
+  "heightModel": {
+    "formula": "H(u)=0.5*u for u<=8.83; 4.415-0.5*(u-8.83) for u<=16.5; 0.58-0.25*(u-16.5) otherwise",
+    "manualHeightOverrides": [
+      { "vertexId": "v-1800-000", "heightFt": -0.17, "reason": "Explicit point in roof3d.html; differs from H(18)" }
+    ],
+    "flatDrainPitch": { "rise": 1, "run": 12, "direction": "+v" },
+    "wallGroundPlaneHeightFt": -9,
+    "wallGroundPlaneIsEstimated": true
+  },
+  "vertices": [
+    { "id": "v-000-000", "plan": [0, 0, 0] },
+    { "id": "v-883-573", "plan": [8.83, 5.73, 4.415] },
+    { "id": "v-883-2500", "plan": [8.83, 25, 4.415] },
+    { "id": "v-000-2500", "plan": [0, 25, 0] },
+    { "id": "v-1800-000", "plan": [18, 0, -0.17] },
+    { "id": "v-165-094", "plan": [16.5, 0.94, 0.58] },
+    { "id": "v-1433-2500", "plan": [14.33, 25, 1.665] },
+    { "id": "v-1433-2305", "plan": [14.33, 23.05, 1.665] },
+    { "id": "v-165-2305", "plan": [16.5, 23.05, 0.58] },
+    { "id": "v-2517-2305", "plan": [25.17, 23.05, -1.5875] },
+    { "id": "v-2517-0130", "plan": [25.17, 1.3, -1.5875] },
+    { "id": "v-1800-0130", "plan": [18, 1.3, 0.205] },
+    { "id": "v-000-3985", "plan": [0, 39.85, -2] },
+    { "id": "v-1296-3985", "plan": [12.96, 39.85, -2] },
+    { "id": "v-1296-5010", "plan": [12.96, 50.1, -2.8541666667] },
+    { "id": "v-000-5010", "plan": [0, 50.1, -2.8541666667] },
+    { "id": "v-269-2305", "plan": [2.69, 23.05, 0.58] },
+    { "id": "v-2225-2305", "plan": [22.25, 23.05, 0.58] },
+    { "id": "v-2225-4553", "plan": [22.25, 45.53, -1.2933333333] },
+    { "id": "v-269-4553", "plan": [2.69, 45.53, -1.2933333333] }
+  ],
+  "planes": [
+    {
+      "id": "pitched-west-6-12",
+      "name": "Pitched west",
+      "roofType": "pitched",
+      "boundaryVertexIds": ["v-000-000", "v-883-573", "v-883-2500", "v-000-2500"],
+      "edgeIds": ["edge-01", "edge-02", "edge-03", "edge-04"],
+      "pitch": { "notation": "6:12", "rise": 6, "run": 12, "degrees": 26.565051, "downslopePlanUnitVector": [-1, 0] },
+      "reportedAreaSqFt": 212,
+      "planAreaSqFt": 195.45205,
+      "slopeAdjustedAreaSqFt": 218.522035,
+      "meshSurfaceAreaSqFt": 218.522035,
+      "textureRepeatFeet": 3,
+      "drawOrder": 0
+    },
+    {
+      "id": "south-hip-6-12",
+      "name": "South hip facet",
+      "roofType": "pitched",
+      "boundaryVertexIds": ["v-000-000", "v-1800-000", "v-165-094", "v-883-573"],
+      "edgeIds": ["edge-05", "edge-06", "edge-07", "edge-01"],
+      "pitch": { "notation": "6:12", "rise": 6, "run": 12, "degrees": 26.565051, "downslopePlanUnitVector": [0, -1] },
+      "reportedAreaSqFt": 56,
+      "planAreaSqFt": 51.5824,
+      "slopeAdjustedAreaSqFt": 57.663236,
+      "meshSurfaceAreaSqFt": 65.574907,
+      "textureRepeatFeet": 3,
+      "drawOrder": 1
+    },
+    {
+      "id": "pitched-center-6-12",
+      "name": "Pitched center",
+      "roofType": "pitched",
+      "boundaryVertexIds": ["v-883-573", "v-883-2500", "v-1433-2500", "v-1433-2305", "v-165-2305", "v-165-094"],
+      "edgeIds": ["edge-02", "edge-08", "edge-09", "edge-10", "edge-11", "edge-07"],
+      "pitch": { "notation": "6:12", "rise": 6, "run": 12, "degrees": 26.565051, "downslopePlanUnitVector": [1, 0] },
+      "reportedAreaSqFt": 176,
+      "planAreaSqFt": 161.93905,
+      "slopeAdjustedAreaSqFt": 181.053362,
+      "meshSurfaceAreaSqFt": 181.053362,
+      "textureRepeatFeet": 3,
+      "drawOrder": 2
+    },
+    {
+      "id": "pitched-east-3-12",
+      "name": "Pitched east",
+      "roofType": "pitched",
+      "boundaryVertexIds": ["v-165-2305", "v-2517-2305", "v-2517-0130", "v-1800-0130", "v-1800-000", "v-165-094"],
+      "edgeIds": ["edge-12", "edge-13", "edge-14", "edge-15", "edge-06", "edge-11"],
+      "pitch": { "notation": "3:12", "rise": 3, "run": 12, "degrees": 14.036243, "downslopePlanUnitVector": [1, 0] },
+      "reportedAreaSqFt": 190,
+      "planAreaSqFt": 189.8175,
+      "slopeAdjustedAreaSqFt": 195.715809,
+      "meshSurfaceAreaSqFt": 195.715809,
+      "textureRepeatFeet": 3,
+      "drawOrder": 3
+    },
+    {
+      "id": "flat-small-1-12",
+      "name": "Flat roof small",
+      "roofType": "flat",
+      "boundaryVertexIds": ["v-000-3985", "v-1296-3985", "v-1296-5010", "v-000-5010"],
+      "edgeIds": ["edge-16", "edge-17", "edge-18", "edge-19"],
+      "pitch": { "notation": "1:12 drain", "rise": 1, "run": 12, "degrees": 4.763642, "downslopePlanUnitVector": [0, 1] },
+      "reportedAreaSqFt": 93,
+      "planAreaSqFt": 132.84,
+      "slopeAdjustedAreaSqFt": 133.300452,
+      "meshSurfaceAreaSqFt": 133.300452,
+      "textureRepeatFeet": 3,
+      "drawOrder": 4
+    },
+    {
+      "id": "flat-large-1-12",
+      "name": "Flat roof large",
+      "roofType": "flat",
+      "boundaryVertexIds": ["v-269-2305", "v-2225-2305", "v-2225-4553", "v-269-4553"],
+      "edgeIds": ["edge-20", "edge-21", "edge-22", "edge-23"],
+      "pitch": { "notation": "1:12 drain", "rise": 1, "run": 12, "degrees": 4.763642, "downslopePlanUnitVector": [0, 1] },
+      "reportedAreaSqFt": 406,
+      "planAreaSqFt": 439.7088,
+      "slopeAdjustedAreaSqFt": 441.232925,
+      "meshSurfaceAreaSqFt": 441.232925,
+      "textureRepeatFeet": 3,
+      "drawOrder": 5
+    }
+  ],
+  "edges": [
+    { "id": "edge-01", "vertexIds": ["v-000-000", "v-883-573"], "type": "hip", "adjacentPlaneIds": ["pitched-west-6-12", "south-hip-6-12"], "planLengthFt": 10.526865, "lengthFt": 11.414641 },
+    { "id": "edge-02", "vertexIds": ["v-883-573", "v-883-2500"], "type": "ridge", "adjacentPlaneIds": ["pitched-west-6-12", "pitched-center-6-12"], "planLengthFt": 19.27, "lengthFt": 19.27 },
+    { "id": "edge-03", "vertexIds": ["v-883-2500", "v-000-2500"], "type": "other", "adjacentPlaneIds": ["pitched-west-6-12"], "planLengthFt": 8.83, "lengthFt": 9.87224 },
+    { "id": "edge-04", "vertexIds": ["v-000-2500", "v-000-000"], "type": "other", "adjacentPlaneIds": ["pitched-west-6-12"], "planLengthFt": 25, "lengthFt": 25 },
+    { "id": "edge-05", "vertexIds": ["v-000-000", "v-1800-000"], "type": "other", "adjacentPlaneIds": ["south-hip-6-12"], "planLengthFt": 18, "lengthFt": 18.000803 },
+    { "id": "edge-06", "vertexIds": ["v-1800-000", "v-165-094"], "type": "hip", "adjacentPlaneIds": ["south-hip-6-12", "pitched-east-3-12"], "planLengthFt": 1.770254, "lengthFt": 1.922524 },
+    { "id": "edge-07", "vertexIds": ["v-165-094", "v-883-573"], "type": "hip", "adjacentPlaneIds": ["south-hip-6-12", "pitched-center-6-12"], "planLengthFt": 9.043136, "lengthFt": 9.822435 },
+    { "id": "edge-08", "vertexIds": ["v-883-2500", "v-1433-2500"], "type": "other", "adjacentPlaneIds": ["pitched-center-6-12"], "planLengthFt": 5.5, "lengthFt": 6.149187 },
+    { "id": "edge-09", "vertexIds": ["v-1433-2500", "v-1433-2305"], "type": "other", "adjacentPlaneIds": ["pitched-center-6-12"], "planLengthFt": 1.95, "lengthFt": 1.95 },
+    { "id": "edge-10", "vertexIds": ["v-1433-2305", "v-165-2305"], "type": "other", "adjacentPlaneIds": ["pitched-center-6-12"], "planLengthFt": 2.17, "lengthFt": 2.426134 },
+    { "id": "edge-11", "vertexIds": ["v-165-2305", "v-165-094"], "type": "transition", "adjacentPlaneIds": ["pitched-center-6-12", "pitched-east-3-12"], "planLengthFt": 22.11, "lengthFt": 22.11 },
+    { "id": "edge-12", "vertexIds": ["v-165-2305", "v-2517-2305"], "type": "other", "adjacentPlaneIds": ["pitched-east-3-12"], "planLengthFt": 8.67, "lengthFt": 8.936831 },
+    { "id": "edge-13", "vertexIds": ["v-2517-2305", "v-2517-0130"], "type": "other", "adjacentPlaneIds": ["pitched-east-3-12"], "planLengthFt": 21.75, "lengthFt": 21.75 },
+    { "id": "edge-14", "vertexIds": ["v-2517-0130", "v-1800-0130"], "type": "other", "adjacentPlaneIds": ["pitched-east-3-12"], "planLengthFt": 7.17, "lengthFt": 7.390667 },
+    { "id": "edge-15", "vertexIds": ["v-1800-0130", "v-1800-000"], "type": "other", "adjacentPlaneIds": ["pitched-east-3-12"], "planLengthFt": 1.3, "lengthFt": 1.353006 },
+    { "id": "edge-16", "vertexIds": ["v-000-3985", "v-1296-3985"], "type": "other", "adjacentPlaneIds": ["flat-small-1-12"], "planLengthFt": 12.96, "lengthFt": 12.96 },
+    { "id": "edge-17", "vertexIds": ["v-1296-3985", "v-1296-5010"], "type": "other", "adjacentPlaneIds": ["flat-small-1-12"], "planLengthFt": 10.25, "lengthFt": 10.285529 },
+    { "id": "edge-18", "vertexIds": ["v-1296-5010", "v-000-5010"], "type": "other", "adjacentPlaneIds": ["flat-small-1-12"], "planLengthFt": 12.96, "lengthFt": 12.96 },
+    { "id": "edge-19", "vertexIds": ["v-000-5010", "v-000-3985"], "type": "other", "adjacentPlaneIds": ["flat-small-1-12"], "planLengthFt": 10.25, "lengthFt": 10.285529 },
+    { "id": "edge-20", "vertexIds": ["v-269-2305", "v-2225-2305"], "type": "other", "adjacentPlaneIds": ["flat-large-1-12"], "planLengthFt": 19.56, "lengthFt": 19.56 },
+    { "id": "edge-21", "vertexIds": ["v-2225-2305", "v-2225-4553"], "type": "other", "adjacentPlaneIds": ["flat-large-1-12"], "planLengthFt": 22.48, "lengthFt": 22.557921 },
+    { "id": "edge-22", "vertexIds": ["v-2225-4553", "v-269-4553"], "type": "other", "adjacentPlaneIds": ["flat-large-1-12"], "planLengthFt": 19.56, "lengthFt": 19.56 },
+    { "id": "edge-23", "vertexIds": ["v-269-4553", "v-269-2305"], "type": "other", "adjacentPlaneIds": ["flat-large-1-12"], "planLengthFt": 22.48, "lengthFt": 22.557921 }
+  ],
+  "wallLoops": [
+    {
+      "id": "pitched-perimeter",
+      "label": "Estimated walls under pitched roof",
+      "boundaryVertexIds": ["v-000-000", "v-1800-000", "v-1800-0130", "v-2517-0130", "v-2517-2305", "v-165-2305", "v-1433-2305", "v-1433-2500", "v-883-2500", "v-000-2500"],
+      "groundPlaneHeightFt": -9,
+      "estimated": true
+    },
+    {
+      "id": "flat-small-walls",
+      "label": "Estimated walls under small flat roof",
+      "boundaryVertexIds": ["v-000-3985", "v-1296-3985", "v-1296-5010", "v-000-5010"],
+      "groundPlaneHeightFt": -9,
+      "estimated": true
+    },
+    {
+      "id": "flat-large-walls",
+      "label": "Estimated walls under large flat roof",
+      "boundaryVertexIds": ["v-269-2305", "v-2225-2305", "v-2225-4553", "v-269-4553"],
+      "groundPlaneHeightFt": -9,
+      "estimated": true
+    }
+  ],
+  "overlapOrder": [
+    { "abovePlaneId": "pitched-west-6-12", "belowPlaneId": "flat-large-1-12", "witnessPlan": [5, 24], "reason": "Roofr Diagram overlap shown with pitched roof visible above flat roof" },
+    { "abovePlaneId": "pitched-center-6-12", "belowPlaneId": "flat-large-1-12", "witnessPlan": [12, 24], "reason": "Roofr Diagram overlap shown with pitched roof visible above flat roof" },
+    { "abovePlaneId": "flat-large-1-12", "belowPlaneId": "flat-small-1-12", "witnessPlan": [5, 42], "reason": "Large flat roof is shown above small flat roof" }
+  ],
+  "omittedDiagramAreasSqFt": [18, 12],
+  "areaValidationTolerancePercent": 5,
+  "validationWarnings": [
+    "DEMO geometry only: the six surfaces come from roof3d.html and do not constitute a measured or approved customer roof.",
+    "Absolute roof elevations and the -9 ft wall ground plane are illustrative estimates; the report does not provide absolute heights.",
+    "The two thin overlap/sliver labels of 18 SF and 12 SF are intentionally omitted as independent planes.",
+    "Six visible displayed facet labels sum to 1,133 SF; adding omitted labels yields 1,163 SF, while the exact report total is 1,158 SF.",
+    "The rounded area-by-pitch groups total 1,159 SF and do not reconcile exactly with the reported 643 SF pitched and 515 SF flat totals.",
+    "Reference coordinates yield small nominal-slope area deltas for the four pitched facets and larger deltas for the two flat surfaces; these are warnings, not proof of shape accuracy.",
+    "The south-hip mesh includes the explicit -0.17 ft point from roof3d.html, which is not produced by H(18)."
+  ]
+}

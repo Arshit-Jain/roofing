@@ -1,0 +1,1880 @@
+{
+  "schemaVersion": "1.1",
+  "geometryId": "roofr-17-deacon-place-candidate-v1",
+  "status": "needs_review",
+  "source": "extracted",
+  "confidence": "medium",
+  "estimatedHeights": true,
+  "units": "feet",
+  "coordinateSystem": {
+    "planAxes": "u is right and v is up on Roofr Area page 4",
+    "heightAxis": "relative to the lowest detected eave; absolute elevation unavailable",
+    "threeJsMapping": "X=u, Y=h, Z=-v",
+    "orientation": "Preserves the report drawing orientation; no north-up rotation"
+  },
+  "compass": {
+    "north": "-u",
+    "east": "+v",
+    "south": "+u",
+    "west": "-v",
+    "source": "Roofr compass printed on Diagram page 2"
+  },
+  "sourceReference": {
+    "viewer": "17_deacon_place_roof_preview.html",
+    "report": "17 Deacon Place, St_ Albert, AB T8N 6S5.pdf",
+    "method": "PyMuPDF vector facet outlines, selectable area labels and pitch arrows, plus dimension-label scale calibration"
+  },
+  "heightModel": {
+    "formula": "h = plane offset - (rise/run) * dot(plan, downslope direction)",
+    "manualHeightOverrides": [],
+    "flatDrainPitch": {
+      "rise": 1,
+      "run": 12,
+      "direction": "Per Roofr vector arrow"
+    },
+    "wallGroundPlaneHeightFt": -8.0,
+    "wallGroundPlaneIsEstimated": true
+  },
+  "vertices": [
+    {
+      "id": "v-0000",
+      "plan": [
+        30.109327,
+        52.8195,
+        0.0
+      ]
+    },
+    {
+      "id": "v-0001",
+      "plan": [
+        30.109327,
+        50.268791,
+        1.062795
+      ]
+    },
+    {
+      "id": "v-0002",
+      "plan": [
+        20.877895,
+        50.268791,
+        1.063469
+      ]
+    },
+    {
+      "id": "v-0003",
+      "plan": [
+        20.877895,
+        52.8195,
+        0.000673
+      ]
+    },
+    {
+      "id": "v-0004",
+      "plan": [
+        4.264306,
+        52.8195,
+        0.03055
+      ]
+    },
+    {
+      "id": "v-0005",
+      "plan": [
+        19.082917,
+        52.8195,
+        0.031505
+      ]
+    },
+    {
+      "id": "v-0006",
+      "plan": [
+        11.673555,
+        45.492207,
+        3.105232
+      ]
+    },
+    {
+      "id": "v-0007",
+      "plan": [
+        19.082917,
+        50.950372,
+        0.013065
+      ]
+    },
+    {
+      "id": "v-0008",
+      "plan": [
+        11.673555,
+        43.510478,
+        3.107746
+      ]
+    },
+    {
+      "id": "v-0009",
+      "plan": [
+        35.729796,
+        50.950372,
+        0.007436
+      ]
+    },
+    {
+      "id": "v-0010",
+      "plan": [
+        20.877895,
+        36.070581,
+        6.205246
+      ]
+    },
+    {
+      "id": "v-0011",
+      "plan": [
+        19.082917,
+        36.070581,
+        6.204912
+      ]
+    },
+    {
+      "id": "v-0012",
+      "plan": [
+        4.264306,
+        21.19079,
+        0.015564
+      ]
+    },
+    {
+      "id": "v-0013",
+      "plan": [
+        35.729796,
+        19.622744,
+        0.004028
+      ]
+    },
+    {
+      "id": "v-0014",
+      "plan": [
+        34.89773,
+        20.493481,
+        0.358843
+      ]
+    },
+    {
+      "id": "v-0015",
+      "plan": [
+        28.709546,
+        20.493481,
+        2.935584
+      ]
+    },
+    {
+      "id": "v-0016",
+      "plan": [
+        28.709546,
+        28.224127,
+        2.938032
+      ]
+    },
+    {
+      "id": "v-0017",
+      "plan": [
+        -0.0,
+        25.801054,
+        0.0
+      ]
+    },
+    {
+      "id": "v-0018",
+      "plan": [
+        -0.0,
+        35.170455,
+        0.000547
+      ]
+    },
+    {
+      "id": "v-0019",
+      "plan": [
+        2.509503,
+        35.170455,
+        0.837048
+      ]
+    },
+    {
+      "id": "v-0020",
+      "plan": [
+        2.509503,
+        25.801054,
+        0.836501
+      ]
+    },
+    {
+      "id": "v-0021",
+      "plan": [
+        5.019121,
+        35.170455,
+        0.000508
+      ]
+    },
+    {
+      "id": "v-0022",
+      "plan": [
+        5.019121,
+        25.801054,
+        -3.8e-05
+      ]
+    },
+    {
+      "id": "v-0023",
+      "plan": [
+        21.689296,
+        21.19079,
+        0.011539
+      ]
+    },
+    {
+      "id": "v-0024",
+      "plan": [
+        21.689296,
+        19.622744,
+        0.011922
+      ]
+    },
+    {
+      "id": "v-0025",
+      "plan": [
+        22.551547,
+        20.493481,
+        0.372961
+      ]
+    },
+    {
+      "id": "v-0026",
+      "plan": [
+        25.821947,
+        19.622744,
+        0.010751
+      ]
+    },
+    {
+      "id": "v-0027",
+      "plan": [
+        22.886372,
+        21.676663,
+        0.866778
+      ]
+    },
+    {
+      "id": "v-0028",
+      "plan": [
+        25.821947,
+        21.676663,
+        0.866551
+      ]
+    },
+    {
+      "id": "v-0029",
+      "plan": [
+        31.655567,
+        19.622744,
+        0.000316
+      ]
+    },
+    {
+      "id": "v-0030",
+      "plan": [
+        31.655567,
+        21.676663,
+        0.856115
+      ]
+    },
+    {
+      "id": "v-0031",
+      "plan": [
+        34.578633,
+        21.676663,
+        0.855889
+      ]
+    },
+    {
+      "id": "v-0032",
+      "plan": [
+        35.729796,
+        21.137301,
+        1.683974
+      ]
+    },
+    {
+      "id": "v-0033",
+      "plan": [
+        35.729796,
+        17.148476,
+        0.021964
+      ]
+    },
+    {
+      "id": "v-0034",
+      "plan": [
+        27.773147,
+        17.148476,
+        0.010835
+      ]
+    },
+    {
+      "id": "v-0035",
+      "plan": [
+        23.683425,
+        21.137301,
+        1.693553
+      ]
+    },
+    {
+      "id": "v-0036",
+      "plan": [
+        16.01867,
+        11.664137,
+        4.889042
+      ]
+    },
+    {
+      "id": "v-0037",
+      "plan": [
+        4.264306,
+        0.0,
+        0.010178
+      ]
+    },
+    {
+      "id": "v-0038",
+      "plan": [
+        4.264306,
+        22.237156,
+        0.0
+      ]
+    },
+    {
+      "id": "v-0039",
+      "plan": [
+        16.01867,
+        22.237156,
+        4.897639
+      ]
+    },
+    {
+      "id": "v-0040",
+      "plan": [
+        27.773147,
+        0.0,
+        0.011051
+      ]
+    },
+    {
+      "id": "v-0041",
+      "plan": [
+        22.733708,
+        22.237156,
+        2.099695
+      ]
+    },
+    {
+      "id": "v-0042",
+      "plan": [
+        22.733708,
+        21.137301,
+        2.09978
+      ]
+    }
+  ],
+  "planes": [
+    {
+      "id": "roofr-facet-01",
+      "name": "Roofr facet 1",
+      "roofType": "pitched",
+      "boundaryVertexIds": [
+        "v-0000",
+        "v-0001",
+        "v-0002",
+        "v-0003"
+      ],
+      "edgeIds": [
+        "edge-0001",
+        "edge-0003",
+        "edge-0004",
+        "edge-0002"
+      ],
+      "pitch": {
+        "notation": "5:12",
+        "rise": 5.0,
+        "run": 12.0,
+        "degrees": 22.619864948040426,
+        "downslopePlanUnitVector": [
+          0.00017499999732031255,
+          0.9999999846875003
+        ]
+      },
+      "reportedAreaSqFt": 25.0,
+      "planAreaSqFt": 23.54669668528777,
+      "slopeAdjustedAreaSqFt": 25.50892140906175,
+      "meshSurfaceAreaSqFt": 25.50892140906175,
+      "textureRepeatFeet": 3,
+      "drawOrder": 0
+    },
+    {
+      "id": "roofr-facet-02",
+      "name": "Roofr facet 2",
+      "roofType": "pitched",
+      "boundaryVertexIds": [
+        "v-0004",
+        "v-0005",
+        "v-0006"
+      ],
+      "edgeIds": [
+        "edge-0005",
+        "edge-0008",
+        "edge-0006"
+      ],
+      "pitch": {
+        "notation": "5:12",
+        "rise": 5.0,
+        "run": 12.0,
+        "degrees": 22.619864948040426,
+        "downslopePlanUnitVector": [
+          -0.00018099999703512958,
+          0.9999999836195004
+        ]
+      },
+      "reportedAreaSqFt": 58.0,
+      "planAreaSqFt": 54.29015232501146,
+      "slopeAdjustedAreaSqFt": 58.81433168542908,
+      "meshSurfaceAreaSqFt": 58.81433168542908,
+      "textureRepeatFeet": 3,
+      "drawOrder": 0
+    },
+    {
+      "id": "roofr-facet-03",
+      "name": "Roofr facet 3",
+      "roofType": "pitched",
+      "boundaryVertexIds": [
+        "v-0005",
+        "v-0007",
+        "v-0008",
+        "v-0006"
+      ],
+      "edgeIds": [
+        "edge-0009",
+        "edge-0011",
+        "edge-0010",
+        "edge-0008"
+      ],
+      "pitch": {
+        "notation": "5:12",
+        "rise": 5.0,
+        "run": 12.0,
+        "degrees": 22.619864948040426,
+        "downslopePlanUnitVector": [
+          0.9999999865520004,
+          -0.00016399999779452806
+        ]
+      },
+      "reportedAreaSqFt": 16.0,
+      "planAreaSqFt": 14.26619676161701,
+      "slopeAdjustedAreaSqFt": 15.45504649175176,
+      "meshSurfaceAreaSqFt": 15.45504649175176,
+      "textureRepeatFeet": 3,
+      "drawOrder": 0
+    },
+    {
+      "id": "roofr-facet-04",
+      "name": "Roofr facet 4",
+      "roofType": "pitched",
+      "boundaryVertexIds": [
+        "v-0009",
+        "v-0010",
+        "v-0011",
+        "v-0008",
+        "v-0007"
+      ],
+      "edgeIds": [
+        "edge-0014",
+        "edge-0016",
+        "edge-0013",
+        "edge-0011",
+        "edge-0012"
+      ],
+      "pitch": {
+        "notation": "5:12",
+        "rise": 5.0,
+        "run": 12.0,
+        "degrees": 22.619864948040426,
+        "downslopePlanUnitVector": [
+          -0.00017499999732031255,
+          0.9999999846875003
+        ]
+      },
+      "reportedAreaSqFt": 203.0,
+      "planAreaSqFt": 192.33036790761457,
+      "slopeAdjustedAreaSqFt": 208.35789856658243,
+      "meshSurfaceAreaSqFt": 208.35789856658243,
+      "textureRepeatFeet": 3,
+      "drawOrder": 0
+    },
+    {
+      "id": "roofr-facet-05",
+      "name": "Roofr facet 5",
+      "roofType": "pitched",
+      "boundaryVertexIds": [
+        "v-0011",
+        "v-0012",
+        "v-0004",
+        "v-0006",
+        "v-0008"
+      ],
+      "edgeIds": [
+        "edge-0018",
+        "edge-0007",
+        "edge-0006",
+        "edge-0010",
+        "edge-0013"
+      ],
+      "pitch": {
+        "notation": "5:12",
+        "rise": 5.0,
+        "run": 12.0,
+        "degrees": 22.619864948040426,
+        "downslopePlanUnitVector": [
+          -0.9999999999875,
+          4.9999999999375e-06
+        ]
+      },
+      "reportedAreaSqFt": 248.0,
+      "planAreaSqFt": 234.76340453836,
+      "slopeAdjustedAreaSqFt": 254.3270215832233,
+      "meshSurfaceAreaSqFt": 254.3270215832233,
+      "textureRepeatFeet": 3,
+      "drawOrder": 0
+    },
+    {
+      "id": "roofr-facet-06",
+      "name": "Roofr facet 6",
+      "roofType": "pitched",
+      "boundaryVertexIds": [
+        "v-0010",
+        "v-0009",
+        "v-0013",
+        "v-0014",
+        "v-0015",
+        "v-0016"
+      ],
+      "edgeIds": [
+        "edge-0014",
+        "edge-0015",
+        "edge-0020",
+        "edge-0022",
+        "edge-0024",
+        "edge-0017"
+      ],
+      "pitch": {
+        "notation": "5:12",
+        "rise": 5.0,
+        "run": 12.0,
+        "degrees": 22.619864948040426,
+        "downslopePlanUnitVector": [
+          0.9999999846875003,
+          -0.00017499999732031255
+        ]
+      },
+      "reportedAreaSqFt": 265.0,
+      "planAreaSqFt": 250.9393276754434,
+      "slopeAdjustedAreaSqFt": 271.8509383150637,
+      "meshSurfaceAreaSqFt": 271.8509383150637,
+      "textureRepeatFeet": 3,
+      "drawOrder": 0
+    },
+    {
+      "id": "roofr-facet-07",
+      "name": "Roofr facet 7",
+      "roofType": "pitched",
+      "boundaryVertexIds": [
+        "v-0017",
+        "v-0018",
+        "v-0019",
+        "v-0020"
+      ],
+      "edgeIds": [
+        "edge-0027",
+        "edge-0029",
+        "edge-0030",
+        "edge-0028"
+      ],
+      "pitch": {
+        "notation": "4:12",
+        "rise": 4.0,
+        "run": 12.0,
+        "degrees": 18.43494882292201,
+        "downslopePlanUnitVector": [
+          -0.9999999846875003,
+          -0.00017499999732031255
+        ]
+      },
+      "reportedAreaSqFt": 25.0,
+      "planAreaSqFt": 23.51253991770298,
+      "slopeAdjustedAreaSqFt": 24.784393238523133,
+      "meshSurfaceAreaSqFt": 24.784393238523133,
+      "textureRepeatFeet": 3,
+      "drawOrder": 0
+    },
+    {
+      "id": "roofr-facet-08",
+      "name": "Roofr facet 8",
+      "roofType": "pitched",
+      "boundaryVertexIds": [
+        "v-0021",
+        "v-0022",
+        "v-0020",
+        "v-0019"
+      ],
+      "edgeIds": [
+        "edge-0033",
+        "edge-0032",
+        "edge-0030",
+        "edge-0031"
+      ],
+      "pitch": {
+        "notation": "4:12",
+        "rise": 4.0,
+        "run": 12.0,
+        "degrees": 18.43494882292201,
+        "downslopePlanUnitVector": [
+          0.9999999846875003,
+          -0.00017499999732031255
+        ]
+      },
+      "reportedAreaSqFt": 25.0,
+      "planAreaSqFt": 23.513617398818013,
+      "slopeAdjustedAreaSqFt": 24.78552900334291,
+      "meshSurfaceAreaSqFt": 24.78552900334291,
+      "textureRepeatFeet": 3,
+      "drawOrder": 0
+    },
+    {
+      "id": "roofr-facet-09",
+      "name": "Roofr facet 9",
+      "roofType": "pitched",
+      "boundaryVertexIds": [
+        "v-0012",
+        "v-0011",
+        "v-0010",
+        "v-0016",
+        "v-0023"
+      ],
+      "edgeIds": [
+        "edge-0018",
+        "edge-0016",
+        "edge-0017",
+        "edge-0026",
+        "edge-0019"
+      ],
+      "pitch": {
+        "notation": "5:12",
+        "rise": 5.0,
+        "run": 12.0,
+        "degrees": 22.619864948040426,
+        "downslopePlanUnitVector": [
+          -0.00017499999732031255,
+          -0.9999999846875003
+        ]
+      },
+      "reportedAreaSqFt": 209.0,
+      "planAreaSqFt": 198.0779081547876,
+      "slopeAdjustedAreaSqFt": 214.58440050101987,
+      "meshSurfaceAreaSqFt": 214.58440050101987,
+      "textureRepeatFeet": 3,
+      "drawOrder": 0
+    },
+    {
+      "id": "roofr-facet-10",
+      "name": "Roofr facet 10",
+      "roofType": "pitched",
+      "boundaryVertexIds": [
+        "v-0024",
+        "v-0023",
+        "v-0016",
+        "v-0015",
+        "v-0025"
+      ],
+      "edgeIds": [
+        "edge-0034",
+        "edge-0026",
+        "edge-0024",
+        "edge-0025",
+        "edge-0035"
+      ],
+      "pitch": {
+        "notation": "5:12",
+        "rise": 5.0,
+        "run": 12.0,
+        "degrees": 22.619864948040426,
+        "downslopePlanUnitVector": [
+          -0.9999999827020004,
+          -0.00018599999678257207
+        ]
+      },
+      "reportedAreaSqFt": 32.0,
+      "planAreaSqFt": 29.958572468868482,
+      "slopeAdjustedAreaSqFt": 32.45512017460752,
+      "meshSurfaceAreaSqFt": 32.45512017460752,
+      "textureRepeatFeet": 3,
+      "drawOrder": 0
+    },
+    {
+      "id": "roofr-facet-11",
+      "name": "Roofr facet 11",
+      "roofType": "pitched",
+      "boundaryVertexIds": [
+        "v-0026",
+        "v-0024",
+        "v-0025",
+        "v-0027",
+        "v-0028"
+      ],
+      "edgeIds": [
+        "edge-0036",
+        "edge-0035",
+        "edge-0037",
+        "edge-0039",
+        "edge-0038"
+      ],
+      "pitch": {
+        "notation": "5:12",
+        "rise": 5.0,
+        "run": 12.0,
+        "degrees": 22.619864948040426,
+        "downslopePlanUnitVector": [
+          0.00018599999678257207,
+          -0.9999999827020004
+        ]
+      },
+      "reportedAreaSqFt": 8.0,
+      "planAreaSqFt": 6.8944541655185105,
+      "slopeAdjustedAreaSqFt": 7.468992012645052,
+      "meshSurfaceAreaSqFt": 7.468992012645052,
+      "textureRepeatFeet": 3,
+      "drawOrder": 0
+    },
+    {
+      "id": "roofr-facet-12",
+      "name": "Roofr facet 12",
+      "roofType": "pitched",
+      "boundaryVertexIds": [
+        "v-0013",
+        "v-0029",
+        "v-0030",
+        "v-0031",
+        "v-0014"
+      ],
+      "edgeIds": [
+        "edge-0021",
+        "edge-0040",
+        "edge-0041",
+        "edge-0023",
+        "edge-0020"
+      ],
+      "pitch": {
+        "notation": "5:12",
+        "rise": 5.0,
+        "run": 12.0,
+        "degrees": 22.619864948040426,
+        "downslopePlanUnitVector": [
+          0.00018599999678257207,
+          -0.9999999827020004
+        ]
+      },
+      "reportedAreaSqFt": 8.0,
+      "planAreaSqFt": 6.832620599790914,
+      "slopeAdjustedAreaSqFt": 7.40200564977349,
+      "meshSurfaceAreaSqFt": 7.40200564977349,
+      "textureRepeatFeet": 3,
+      "drawOrder": 0
+    },
+    {
+      "id": "roofr-facet-13",
+      "name": "Roofr facet 13",
+      "roofType": "pitched",
+      "boundaryVertexIds": [
+        "v-0032",
+        "v-0033",
+        "v-0034",
+        "v-0035"
+      ],
+      "edgeIds": [
+        "edge-0042",
+        "edge-0044",
+        "edge-0045",
+        "edge-0043"
+      ],
+      "pitch": {
+        "notation": "5:12",
+        "rise": 5.0,
+        "run": 12.0,
+        "degrees": 22.619864948040426,
+        "downslopePlanUnitVector": [
+          -0.00018599999678257207,
+          -0.9999999827020004
+        ]
+      },
+      "reportedAreaSqFt": 43.0,
+      "planAreaSqFt": 39.89427312575003,
+      "slopeAdjustedAreaSqFt": 43.2187958862292,
+      "meshSurfaceAreaSqFt": 43.2187958862292,
+      "textureRepeatFeet": 3,
+      "drawOrder": 0
+    },
+    {
+      "id": "roofr-facet-14",
+      "name": "Roofr facet 14",
+      "roofType": "pitched",
+      "boundaryVertexIds": [
+        "v-0036",
+        "v-0037",
+        "v-0038",
+        "v-0039"
+      ],
+      "edgeIds": [
+        "edge-0048",
+        "edge-0051",
+        "edge-0053",
+        "edge-0049"
+      ],
+      "pitch": {
+        "notation": "5:12",
+        "rise": 5.0,
+        "run": 12.0,
+        "degrees": 22.619864948040426,
+        "downslopePlanUnitVector": [
+          -0.9999999846875003,
+          0.00017499999732031255
+        ]
+      },
+      "reportedAreaSqFt": 204.0,
+      "planAreaSqFt": 192.83136992685002,
+      "slopeAdjustedAreaSqFt": 208.9006507540875,
+      "meshSurfaceAreaSqFt": 208.9006507540875,
+      "textureRepeatFeet": 3,
+      "drawOrder": 0
+    },
+    {
+      "id": "roofr-facet-15",
+      "name": "Roofr facet 15",
+      "roofType": "pitched",
+      "boundaryVertexIds": [
+        "v-0040",
+        "v-0036",
+        "v-0039",
+        "v-0041",
+        "v-0042",
+        "v-0035",
+        "v-0034"
+      ],
+      "edgeIds": [
+        "edge-0050",
+        "edge-0049",
+        "edge-0054",
+        "edge-0055",
+        "edge-0047",
+        "edge-0045",
+        "edge-0046"
+      ],
+      "pitch": {
+        "notation": "5:12",
+        "rise": 5.0,
+        "run": 12.0,
+        "degrees": 22.619864948040426,
+        "downslopePlanUnitVector": [
+          0.9999999827020004,
+          0.00018599999678257207
+        ]
+      },
+      "reportedAreaSqFt": 189.0,
+      "planAreaSqFt": 179.13397884206745,
+      "slopeAdjustedAreaSqFt": 194.06181041223974,
+      "meshSurfaceAreaSqFt": 194.06181041223974,
+      "textureRepeatFeet": 3,
+      "drawOrder": 0
+    },
+    {
+      "id": "roofr-facet-16",
+      "name": "Roofr facet 16",
+      "roofType": "pitched",
+      "boundaryVertexIds": [
+        "v-0040",
+        "v-0037",
+        "v-0036"
+      ],
+      "edgeIds": [
+        "edge-0052",
+        "edge-0048",
+        "edge-0050"
+      ],
+      "pitch": {
+        "notation": "5:12",
+        "rise": 5.0,
+        "run": 12.0,
+        "degrees": 22.619864948040426,
+        "downslopePlanUnitVector": [
+          -0.00017499999732031255,
+          -0.9999999846875003
+        ]
+      },
+      "reportedAreaSqFt": 145.0,
+      "planAreaSqFt": 137.1051710676085,
+      "slopeAdjustedAreaSqFt": 148.5306019899092,
+      "meshSurfaceAreaSqFt": 148.5306019899092,
+      "textureRepeatFeet": 3,
+      "drawOrder": 0
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-0001",
+      "vertexIds": [
+        "v-0000",
+        "v-0001"
+      ],
+      "type": "rake",
+      "adjacentPlaneIds": [
+        "roofr-facet-01"
+      ],
+      "planLengthFt": 2.5507089999999977,
+      "lengthFt": 2.5507089999999977
+    },
+    {
+      "id": "edge-0002",
+      "vertexIds": [
+        "v-0000",
+        "v-0003"
+      ],
+      "type": "eave",
+      "adjacentPlaneIds": [
+        "roofr-facet-01"
+      ],
+      "planLengthFt": 9.231432000000002,
+      "lengthFt": 9.231432000000002
+    },
+    {
+      "id": "edge-0003",
+      "vertexIds": [
+        "v-0001",
+        "v-0002"
+      ],
+      "type": "other",
+      "adjacentPlaneIds": [
+        "roofr-facet-01"
+      ],
+      "planLengthFt": 9.231432000000002,
+      "lengthFt": 9.231432000000002
+    },
+    {
+      "id": "edge-0004",
+      "vertexIds": [
+        "v-0002",
+        "v-0003"
+      ],
+      "type": "rake",
+      "adjacentPlaneIds": [
+        "roofr-facet-01"
+      ],
+      "planLengthFt": 2.5507089999999977,
+      "lengthFt": 2.5507089999999977
+    },
+    {
+      "id": "edge-0005",
+      "vertexIds": [
+        "v-0004",
+        "v-0005"
+      ],
+      "type": "eave",
+      "adjacentPlaneIds": [
+        "roofr-facet-02"
+      ],
+      "planLengthFt": 14.818610999999997,
+      "lengthFt": 14.818610999999997
+    },
+    {
+      "id": "edge-0006",
+      "vertexIds": [
+        "v-0004",
+        "v-0006"
+      ],
+      "type": "hip",
+      "adjacentPlaneIds": [
+        "roofr-facet-02",
+        "roofr-facet-05"
+      ],
+      "planLengthFt": 10.420469924713087,
+      "lengthFt": 10.420469924713087
+    },
+    {
+      "id": "edge-0007",
+      "vertexIds": [
+        "v-0004",
+        "v-0012"
+      ],
+      "type": "eave",
+      "adjacentPlaneIds": [
+        "roofr-facet-05"
+      ],
+      "planLengthFt": 31.628709999999998,
+      "lengthFt": 31.628709999999998
+    },
+    {
+      "id": "edge-0008",
+      "vertexIds": [
+        "v-0005",
+        "v-0006"
+      ],
+      "type": "hip",
+      "adjacentPlaneIds": [
+        "roofr-facet-02",
+        "roofr-facet-03"
+      ],
+      "planLengthFt": 10.420550271213749,
+      "lengthFt": 10.420550271213749
+    },
+    {
+      "id": "edge-0009",
+      "vertexIds": [
+        "v-0005",
+        "v-0007"
+      ],
+      "type": "eave",
+      "adjacentPlaneIds": [
+        "roofr-facet-03"
+      ],
+      "planLengthFt": 1.8691279999999963,
+      "lengthFt": 1.8691279999999963
+    },
+    {
+      "id": "edge-0010",
+      "vertexIds": [
+        "v-0006",
+        "v-0008"
+      ],
+      "type": "ridge",
+      "adjacentPlaneIds": [
+        "roofr-facet-03",
+        "roofr-facet-05"
+      ],
+      "planLengthFt": 1.9817290000000014,
+      "lengthFt": 1.9817290000000014
+    },
+    {
+      "id": "edge-0011",
+      "vertexIds": [
+        "v-0007",
+        "v-0008"
+      ],
+      "type": "valley",
+      "adjacentPlaneIds": [
+        "roofr-facet-03",
+        "roofr-facet-04"
+      ],
+      "planLengthFt": 10.500031808441344,
+      "lengthFt": 10.500031808441344
+    },
+    {
+      "id": "edge-0012",
+      "vertexIds": [
+        "v-0007",
+        "v-0009"
+      ],
+      "type": "eave",
+      "adjacentPlaneIds": [
+        "roofr-facet-04"
+      ],
+      "planLengthFt": 16.646879000000002,
+      "lengthFt": 16.646879000000002
+    },
+    {
+      "id": "edge-0013",
+      "vertexIds": [
+        "v-0008",
+        "v-0011"
+      ],
+      "type": "hip",
+      "adjacentPlaneIds": [
+        "roofr-facet-04",
+        "roofr-facet-05"
+      ],
+      "planLengthFt": 10.500033934119118,
+      "lengthFt": 10.500033934119118
+    },
+    {
+      "id": "edge-0014",
+      "vertexIds": [
+        "v-0009",
+        "v-0010"
+      ],
+      "type": "hip",
+      "adjacentPlaneIds": [
+        "roofr-facet-04",
+        "roofr-facet-06"
+      ],
+      "planLengthFt": 21.02349027914923,
+      "lengthFt": 21.02349027914923
+    },
+    {
+      "id": "edge-0015",
+      "vertexIds": [
+        "v-0009",
+        "v-0013"
+      ],
+      "type": "eave",
+      "adjacentPlaneIds": [
+        "roofr-facet-06"
+      ],
+      "planLengthFt": 31.327628,
+      "lengthFt": 31.327628
+    },
+    {
+      "id": "edge-0016",
+      "vertexIds": [
+        "v-0010",
+        "v-0011"
+      ],
+      "type": "ridge",
+      "adjacentPlaneIds": [
+        "roofr-facet-04",
+        "roofr-facet-09"
+      ],
+      "planLengthFt": 1.7949780000000004,
+      "lengthFt": 1.7949780000000004
+    },
+    {
+      "id": "edge-0017",
+      "vertexIds": [
+        "v-0010",
+        "v-0016"
+      ],
+      "type": "hip",
+      "adjacentPlaneIds": [
+        "roofr-facet-06",
+        "roofr-facet-09"
+      ],
+      "planLengthFt": 11.086099303177695,
+      "lengthFt": 11.086099303177695
+    },
+    {
+      "id": "edge-0018",
+      "vertexIds": [
+        "v-0011",
+        "v-0012"
+      ],
+      "type": "hip",
+      "adjacentPlaneIds": [
+        "roofr-facet-05",
+        "roofr-facet-09"
+      ],
+      "planLengthFt": 20.999986004114426,
+      "lengthFt": 20.999986004114426
+    },
+    {
+      "id": "edge-0019",
+      "vertexIds": [
+        "v-0012",
+        "v-0023"
+      ],
+      "type": "eave",
+      "adjacentPlaneIds": [
+        "roofr-facet-09"
+      ],
+      "planLengthFt": 17.424989999999998,
+      "lengthFt": 17.424989999999998
+    },
+    {
+      "id": "edge-0020",
+      "vertexIds": [
+        "v-0013",
+        "v-0014"
+      ],
+      "type": "hip",
+      "adjacentPlaneIds": [
+        "roofr-facet-06",
+        "roofr-facet-12"
+      ],
+      "planLengthFt": 1.2043740081573469,
+      "lengthFt": 1.2043740081573469
+    },
+    {
+      "id": "edge-0021",
+      "vertexIds": [
+        "v-0013",
+        "v-0029"
+      ],
+      "type": "eave",
+      "adjacentPlaneIds": [
+        "roofr-facet-12"
+      ],
+      "planLengthFt": 4.074228999999999,
+      "lengthFt": 4.074228999999999
+    },
+    {
+      "id": "edge-0022",
+      "vertexIds": [
+        "v-0014",
+        "v-0015"
+      ],
+      "type": "rake",
+      "adjacentPlaneIds": [
+        "roofr-facet-06"
+      ],
+      "planLengthFt": 6.188184000000003,
+      "lengthFt": 6.188184000000003
+    },
+    {
+      "id": "edge-0023",
+      "vertexIds": [
+        "v-0014",
+        "v-0031"
+      ],
+      "type": "other",
+      "adjacentPlaneIds": [
+        "roofr-facet-12"
+      ],
+      "planLengthFt": 1.2254560541010864,
+      "lengthFt": 1.2254560541010864
+    },
+    {
+      "id": "edge-0024",
+      "vertexIds": [
+        "v-0015",
+        "v-0016"
+      ],
+      "type": "ridge",
+      "adjacentPlaneIds": [
+        "roofr-facet-06",
+        "roofr-facet-10"
+      ],
+      "planLengthFt": 7.730646,
+      "lengthFt": 7.730646
+    },
+    {
+      "id": "edge-0025",
+      "vertexIds": [
+        "v-0015",
+        "v-0025"
+      ],
+      "type": "rake",
+      "adjacentPlaneIds": [
+        "roofr-facet-10"
+      ],
+      "planLengthFt": 6.157999,
+      "lengthFt": 6.157999
+    },
+    {
+      "id": "edge-0026",
+      "vertexIds": [
+        "v-0016",
+        "v-0023"
+      ],
+      "type": "valley",
+      "adjacentPlaneIds": [
+        "roofr-facet-09",
+        "roofr-facet-10"
+      ],
+      "planLengthFt": 9.937390976411717,
+      "lengthFt": 9.937390976411717
+    },
+    {
+      "id": "edge-0027",
+      "vertexIds": [
+        "v-0017",
+        "v-0018"
+      ],
+      "type": "eave",
+      "adjacentPlaneIds": [
+        "roofr-facet-07"
+      ],
+      "planLengthFt": 9.369400999999996,
+      "lengthFt": 9.369400999999996
+    },
+    {
+      "id": "edge-0028",
+      "vertexIds": [
+        "v-0017",
+        "v-0020"
+      ],
+      "type": "rake",
+      "adjacentPlaneIds": [
+        "roofr-facet-07"
+      ],
+      "planLengthFt": 2.509503,
+      "lengthFt": 2.509503
+    },
+    {
+      "id": "edge-0029",
+      "vertexIds": [
+        "v-0018",
+        "v-0019"
+      ],
+      "type": "rake",
+      "adjacentPlaneIds": [
+        "roofr-facet-07"
+      ],
+      "planLengthFt": 2.509503,
+      "lengthFt": 2.509503
+    },
+    {
+      "id": "edge-0030",
+      "vertexIds": [
+        "v-0019",
+        "v-0020"
+      ],
+      "type": "ridge",
+      "adjacentPlaneIds": [
+        "roofr-facet-07",
+        "roofr-facet-08"
+      ],
+      "planLengthFt": 9.369400999999996,
+      "lengthFt": 9.369400999999996
+    },
+    {
+      "id": "edge-0031",
+      "vertexIds": [
+        "v-0019",
+        "v-0021"
+      ],
+      "type": "rake",
+      "adjacentPlaneIds": [
+        "roofr-facet-08"
+      ],
+      "planLengthFt": 2.509618,
+      "lengthFt": 2.509618
+    },
+    {
+      "id": "edge-0032",
+      "vertexIds": [
+        "v-0020",
+        "v-0022"
+      ],
+      "type": "rake",
+      "adjacentPlaneIds": [
+        "roofr-facet-08"
+      ],
+      "planLengthFt": 2.509618,
+      "lengthFt": 2.509618
+    },
+    {
+      "id": "edge-0033",
+      "vertexIds": [
+        "v-0021",
+        "v-0022"
+      ],
+      "type": "other",
+      "adjacentPlaneIds": [
+        "roofr-facet-08"
+      ],
+      "planLengthFt": 9.369400999999996,
+      "lengthFt": 9.369400999999996
+    },
+    {
+      "id": "edge-0034",
+      "vertexIds": [
+        "v-0023",
+        "v-0024"
+      ],
+      "type": "eave",
+      "adjacentPlaneIds": [
+        "roofr-facet-10"
+      ],
+      "planLengthFt": 1.568045999999999,
+      "lengthFt": 1.568045999999999
+    },
+    {
+      "id": "edge-0035",
+      "vertexIds": [
+        "v-0024",
+        "v-0025"
+      ],
+      "type": "hip",
+      "adjacentPlaneIds": [
+        "roofr-facet-10",
+        "roofr-facet-11"
+      ],
+      "planLengthFt": 1.225422257905412,
+      "lengthFt": 1.225422257905412
+    },
+    {
+      "id": "edge-0036",
+      "vertexIds": [
+        "v-0024",
+        "v-0026"
+      ],
+      "type": "eave",
+      "adjacentPlaneIds": [
+        "roofr-facet-11"
+      ],
+      "planLengthFt": 4.132651000000003,
+      "lengthFt": 4.132651000000003
+    },
+    {
+      "id": "edge-0037",
+      "vertexIds": [
+        "v-0025",
+        "v-0027"
+      ],
+      "type": "other",
+      "adjacentPlaneIds": [
+        "roofr-facet-11"
+      ],
+      "planLengthFt": 1.229645243860605,
+      "lengthFt": 1.229645243860605
+    },
+    {
+      "id": "edge-0038",
+      "vertexIds": [
+        "v-0026",
+        "v-0028"
+      ],
+      "type": "rake",
+      "adjacentPlaneIds": [
+        "roofr-facet-11"
+      ],
+      "planLengthFt": 2.0539190000000005,
+      "lengthFt": 2.0539190000000005
+    },
+    {
+      "id": "edge-0039",
+      "vertexIds": [
+        "v-0027",
+        "v-0028"
+      ],
+      "type": "other",
+      "adjacentPlaneIds": [
+        "roofr-facet-11"
+      ],
+      "planLengthFt": 2.935575,
+      "lengthFt": 2.935575
+    },
+    {
+      "id": "edge-0040",
+      "vertexIds": [
+        "v-0029",
+        "v-0030"
+      ],
+      "type": "rake",
+      "adjacentPlaneIds": [
+        "roofr-facet-12"
+      ],
+      "planLengthFt": 2.0539190000000005,
+      "lengthFt": 2.0539190000000005
+    },
+    {
+      "id": "edge-0041",
+      "vertexIds": [
+        "v-0030",
+        "v-0031"
+      ],
+      "type": "other",
+      "adjacentPlaneIds": [
+        "roofr-facet-12"
+      ],
+      "planLengthFt": 2.923066000000002,
+      "lengthFt": 2.923066000000002
+    },
+    {
+      "id": "edge-0042",
+      "vertexIds": [
+        "v-0032",
+        "v-0033"
+      ],
+      "type": "rake",
+      "adjacentPlaneIds": [
+        "roofr-facet-13"
+      ],
+      "planLengthFt": 3.988825000000002,
+      "lengthFt": 3.988825000000002
+    },
+    {
+      "id": "edge-0043",
+      "vertexIds": [
+        "v-0032",
+        "v-0035"
+      ],
+      "type": "other",
+      "adjacentPlaneIds": [
+        "roofr-facet-13"
+      ],
+      "planLengthFt": 12.046371,
+      "lengthFt": 12.046371
+    },
+    {
+      "id": "edge-0044",
+      "vertexIds": [
+        "v-0033",
+        "v-0034"
+      ],
+      "type": "eave",
+      "adjacentPlaneIds": [
+        "roofr-facet-13"
+      ],
+      "planLengthFt": 7.956648999999999,
+      "lengthFt": 7.956648999999999
+    },
+    {
+      "id": "edge-0045",
+      "vertexIds": [
+        "v-0034",
+        "v-0035"
+      ],
+      "type": "valley",
+      "adjacentPlaneIds": [
+        "roofr-facet-13",
+        "roofr-facet-15"
+      ],
+      "planLengthFt": 5.712840879799562,
+      "lengthFt": 5.712840879799562
+    },
+    {
+      "id": "edge-0046",
+      "vertexIds": [
+        "v-0034",
+        "v-0040"
+      ],
+      "type": "eave",
+      "adjacentPlaneIds": [
+        "roofr-facet-15"
+      ],
+      "planLengthFt": 17.148476,
+      "lengthFt": 17.148476
+    },
+    {
+      "id": "edge-0047",
+      "vertexIds": [
+        "v-0035",
+        "v-0042"
+      ],
+      "type": "other",
+      "adjacentPlaneIds": [
+        "roofr-facet-15"
+      ],
+      "planLengthFt": 0.9497169999999997,
+      "lengthFt": 0.9497169999999997
+    },
+    {
+      "id": "edge-0048",
+      "vertexIds": [
+        "v-0036",
+        "v-0037"
+      ],
+      "type": "hip",
+      "adjacentPlaneIds": [
+        "roofr-facet-14",
+        "roofr-facet-16"
+      ],
+      "planLengthFt": 16.55950376669739,
+      "lengthFt": 16.55950376669739
+    },
+    {
+      "id": "edge-0049",
+      "vertexIds": [
+        "v-0036",
+        "v-0039"
+      ],
+      "type": "ridge",
+      "adjacentPlaneIds": [
+        "roofr-facet-14",
+        "roofr-facet-15"
+      ],
+      "planLengthFt": 10.573018999999999,
+      "lengthFt": 10.573018999999999
+    },
+    {
+      "id": "edge-0050",
+      "vertexIds": [
+        "v-0036",
+        "v-0040"
+      ],
+      "type": "hip",
+      "adjacentPlaneIds": [
+        "roofr-facet-15",
+        "roofr-facet-16"
+      ],
+      "planLengthFt": 16.559583977210842,
+      "lengthFt": 16.559583977210842
+    },
+    {
+      "id": "edge-0051",
+      "vertexIds": [
+        "v-0037",
+        "v-0038"
+      ],
+      "type": "eave",
+      "adjacentPlaneIds": [
+        "roofr-facet-14"
+      ],
+      "planLengthFt": 22.237156,
+      "lengthFt": 22.237156
+    },
+    {
+      "id": "edge-0052",
+      "vertexIds": [
+        "v-0037",
+        "v-0040"
+      ],
+      "type": "eave",
+      "adjacentPlaneIds": [
+        "roofr-facet-16"
+      ],
+      "planLengthFt": 23.508841,
+      "lengthFt": 23.508841
+    },
+    {
+      "id": "edge-0053",
+      "vertexIds": [
+        "v-0038",
+        "v-0039"
+      ],
+      "type": "other",
+      "adjacentPlaneIds": [
+        "roofr-facet-14"
+      ],
+      "planLengthFt": 11.754363999999999,
+      "lengthFt": 11.754363999999999
+    },
+    {
+      "id": "edge-0054",
+      "vertexIds": [
+        "v-0039",
+        "v-0041"
+      ],
+      "type": "other",
+      "adjacentPlaneIds": [
+        "roofr-facet-15"
+      ],
+      "planLengthFt": 6.715038,
+      "lengthFt": 6.715038
+    },
+    {
+      "id": "edge-0055",
+      "vertexIds": [
+        "v-0041",
+        "v-0042"
+      ],
+      "type": "other",
+      "adjacentPlaneIds": [
+        "roofr-facet-15"
+      ],
+      "planLengthFt": 1.099854999999998,
+      "lengthFt": 1.099854999999998
+    }
+  ],
+  "wallLoops": [],
+  "overlapOrder": [
+    {
+      "abovePlaneId": "roofr-facet-06",
+      "belowPlaneId": "roofr-facet-12",
+      "witnessPlan": [
+        33.335451,
+        20.593167
+      ],
+      "reason": "PDF content stream order for nested facet outlines"
+    },
+    {
+      "abovePlaneId": "roofr-facet-10",
+      "belowPlaneId": "roofr-facet-11",
+      "witnessPlan": [
+        24.125835,
+        20.591416
+      ],
+      "reason": "PDF content stream order for nested facet outlines"
+    },
+    {
+      "abovePlaneId": "roofr-facet-11",
+      "belowPlaneId": "roofr-facet-15",
+      "witnessPlan": [
+        24.125835,
+        20.591416
+      ],
+      "reason": "PDF content stream order for nested facet outlines"
+    },
+    {
+      "abovePlaneId": "roofr-facet-12",
+      "belowPlaneId": "roofr-facet-13",
+      "witnessPlan": [
+        33.335451,
+        20.593167
+      ],
+      "reason": "PDF content stream order for nested facet outlines"
+    }
+  ],
+  "omittedDiagramAreasSqFt": [],
+  "areaValidationTolerancePercent": 5.0,
+  "validationWarnings": [
+    "Page stacking requires roofr-facet-11 above roofr-facet-15; relative level is not supported by shared edges.",
+    "Page stacking requires roofr-facet-12 above roofr-facet-13; relative level is not supported by shared edges.",
+    "Absolute eave elevation is absent; the lowest detected eave is assigned the relative 0 ft datum."
+  ],
+  "unassignedFacetIds": [],
+  "heightSolve": {
+    "status": "solved",
+    "vertexHeights": {
+      "v-0000": 0.0,
+      "v-0001": 1.062795,
+      "v-0002": 1.063469,
+      "v-0003": 0.000673,
+      "v-0004": 0.03055,
+      "v-0005": 0.031505,
+      "v-0006": 3.105232,
+      "v-0007": 0.013065,
+      "v-0008": 3.107746,
+      "v-0009": 0.007436,
+      "v-0010": 6.205246,
+      "v-0011": 6.204912,
+      "v-0012": 0.015564,
+      "v-0013": 0.004028,
+      "v-0014": 0.358843,
+      "v-0015": 2.935584,
+      "v-0016": 2.938032,
+      "v-0017": 0.0,
+      "v-0018": 0.000547,
+      "v-0019": 0.837048,
+      "v-0020": 0.836501,
+      "v-0021": 0.000508,
+      "v-0022": -3.8e-05,
+      "v-0023": 0.011539,
+      "v-0024": 0.011922,
+      "v-0025": 0.372961,
+      "v-0026": 0.010751,
+      "v-0027": 0.866778,
+      "v-0028": 0.866551,
+      "v-0029": 0.000316,
+      "v-0030": 0.856115,
+      "v-0031": 0.855889,
+      "v-0032": 1.683974,
+      "v-0033": 0.021964,
+      "v-0034": 0.010835,
+      "v-0035": 1.693553,
+      "v-0036": 4.889042,
+      "v-0037": 0.010178,
+      "v-0038": 0.0,
+      "v-0039": 4.897639,
+      "v-0040": 0.011051,
+      "v-0041": 2.099695,
+      "v-0042": 2.09978
+    },
+    "warnings": [
+      "Page stacking requires roofr-facet-11 above roofr-facet-15; relative level is not supported by shared edges.",
+      "Page stacking requires roofr-facet-12 above roofr-facet-13; relative level is not supported by shared edges.",
+      "Absolute eave elevation is absent; the lowest detected eave is assigned the relative 0 ft datum."
+    ],
+    "failures": [],
+    "sharedEdgeConstraints": [
+      {
+        "planeA": "roofr-facet-02",
+        "planeB": "roofr-facet-05",
+        "heightOffsetFt": -23.801289599599407,
+        "edgeId": "edge-0006"
+      },
+      {
+        "planeA": "roofr-facet-02",
+        "planeB": "roofr-facet-03",
+        "heightOffsetFt": -14.07620625033511,
+        "edgeId": "edge-0008"
+      },
+      {
+        "planeA": "roofr-facet-03",
+        "planeB": "roofr-facet-05",
+        "heightOffsetFt": -9.724828798368234,
+        "edgeId": "edge-0010"
+      },
+      {
+        "planeA": "roofr-facet-03",
+        "planeB": "roofr-facet-04",
+        "heightOffsetFt": 13.273851284136542,
+        "edgeId": "edge-0011"
+      },
+      {
+        "planeA": "roofr-facet-04",
+        "planeB": "roofr-facet-05",
+        "heightOffsetFt": -22.985781144420425,
+        "edgeId": "edge-0013"
+      },
+      {
+        "planeA": "roofr-facet-04",
+        "planeB": "roofr-facet-06",
+        "heightOffsetFt": -6.3372049698053,
+        "edgeId": "edge-0014"
+      },
+      {
+        "planeA": "roofr-facet-04",
+        "planeB": "roofr-facet-09",
+        "heightOffsetFt": -30.05881703972437,
+        "edgeId": "edge-0016"
+      },
+      {
+        "planeA": "roofr-facet-06",
+        "planeB": "roofr-facet-09",
+        "heightOffsetFt": -23.724911142602927,
+        "edgeId": "edge-0017"
+      },
+      {
+        "planeA": "roofr-facet-05",
+        "planeB": "roofr-facet-09",
+        "heightOffsetFt": -7.066358165478032,
+        "edgeId": "edge-0018"
+      },
+      {
+        "planeA": "roofr-facet-06",
+        "planeB": "roofr-facet-12",
+        "heightOffsetFt": -23.06741503452278,
+        "edgeId": "edge-0020"
+      },
+      {
+        "planeA": "roofr-facet-06",
+        "planeB": "roofr-facet-10",
+        "heightOffsetFt": -23.924732921082615,
+        "edgeId": "edge-0024"
+      },
+      {
+        "planeA": "roofr-facet-09",
+        "planeB": "roofr-facet-10",
+        "heightOffsetFt": -0.2050617212614183,
+        "edgeId": "edge-0026"
+      },
+      {
+        "planeA": "roofr-facet-07",
+        "planeB": "roofr-facet-08",
+        "heightOffsetFt": 1.6730019743821574,
+        "edgeId": "edge-0030"
+      },
+      {
+        "planeA": "roofr-facet-10",
+        "planeB": "roofr-facet-11",
+        "heightOffsetFt": 0.8625642381310303,
+        "edgeId": "edge-0035"
+      },
+      {
+        "planeA": "roofr-facet-13",
+        "planeB": "roofr-facet-15",
+        "heightOffsetFt": 18.699799900887946,
+        "edgeId": "edge-0045"
+      },
+      {
+        "planeA": "roofr-facet-14",
+        "planeB": "roofr-facet-16",
+        "heightOffsetFt": 1.7944266923613832,
+        "edgeId": "edge-0048"
+      },
+      {
+        "planeA": "roofr-facet-14",
+        "planeB": "roofr-facet-15",
+        "heightOffsetFt": 13.348969139468984,
+        "edgeId": "edge-0049"
+      },
+      {
+        "planeA": "roofr-facet-15",
+        "planeB": "roofr-facet-16",
+        "heightOffsetFt": -11.555372116913375,
+        "edgeId": "edge-0050"
+      }
+    ],
+    "estimated": true,
+    "estimatedHeightNote": "Eave datum is relative; absolute elevation above ground is not in the report."
+  }
+}

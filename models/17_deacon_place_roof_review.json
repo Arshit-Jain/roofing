@@ -1,0 +1,2652 @@
+{
+  "status": "needs_review",
+  "confidence": "medium",
+  "coordinatePageNumber": 4,
+  "coordinatePageSize": {
+    "widthPoints": 595.280029296875,
+    "heightPoints": 841.8900146484375
+  },
+  "pageCalibrations": {
+    "lengthPageNumber": 3,
+    "areaPageNumber": 4,
+    "pitchPageNumber": 5,
+    "feetPerPoint": 0.11478308480829846,
+    "lengthPageFeetPerPoint": 0.12585621398082092,
+    "hypothesisChosen": "plan",
+    "inlierCount": 15,
+    "observationCount": 21,
+    "rSquared": 0.9984639059208497,
+    "residualRmsFeet": 0.23361445987141805,
+    "edgesUsed": [
+      "p3-d23-i0-5",
+      "p3-d24-i0-6",
+      "p3-d28-i0-7",
+      "p3-d29-i0-8",
+      "p3-d30-i0-9",
+      "p3-d31-i0-10",
+      "p3-d52-i0-24",
+      "p3-d53-i0-25",
+      "p3-d57-i0-29",
+      "p3-d59-i0-31",
+      "p3-d63-i0-35",
+      "p3-d64-i0-36",
+      "p3-d65-i0-37",
+      "p3-d66-i0-38",
+      "p3-d67-i0-39",
+      "p3-d68-i0-40",
+      "p3-d69-i0-41",
+      "p3-d72-i0-44",
+      "p3-d73-i0-45"
+    ],
+    "residualsFeet": [
+      {
+        "labelId": "p3-label-00",
+        "edgeId": "p3-d73-i0-45",
+        "labelFeet": 15.0,
+        "predictedFeet": 14.818562899608882,
+        "residualFeet": 0.3185628996088816,
+        "inlier": true
+      },
+      {
+        "labelId": "p3-label-01",
+        "edgeId": "p3-d65-i0-37",
+        "labelFeet": 17.0,
+        "predictedFeet": 16.64700004054552,
+        "residualFeet": 0.14700004054552096,
+        "inlier": true
+      },
+      {
+        "labelId": "p3-label-02",
+        "edgeId": "p3-d72-i0-44",
+        "labelFeet": 11.0,
+        "predictedFeet": 10.420529625774398,
+        "residualFeet": -0.07947037422560221,
+        "inlier": true
+      },
+      {
+        "labelId": "p3-label-03",
+        "edgeId": "p3-d69-i0-41",
+        "labelFeet": 11.0,
+        "predictedFeet": 10.420529625774398,
+        "residualFeet": -0.07947037422560221,
+        "inlier": true
+      },
+      {
+        "labelId": "p3-label-04",
+        "edgeId": "p3-d64-i0-36",
+        "labelFeet": 11.0,
+        "predictedFeet": 10.499955095865902,
+        "residualFeet": -4.4904134098189274e-05,
+        "inlier": true
+      },
+      {
+        "labelId": "p3-label-05",
+        "edgeId": "p3-d52-i0-24",
+        "labelFeet": 22.0,
+        "predictedFeet": 21.02363603864458,
+        "residualFeet": -0.47636396135542114,
+        "inlier": true
+      },
+      {
+        "labelId": "p3-label-06",
+        "edgeId": "p3-d63-i0-35",
+        "labelFeet": 11.0,
+        "predictedFeet": 10.500044904518173,
+        "residualFeet": 4.4904518173183305e-05,
+        "inlier": true
+      },
+      {
+        "labelId": "p3-label-07",
+        "edgeId": "p3-d68-i0-40",
+        "labelFeet": 32.0,
+        "predictedFeet": 31.628794240141307,
+        "residualFeet": 0.12879424014130691,
+        "inlier": true
+      },
+      {
+        "labelId": "p3-label-08",
+        "edgeId": "p3-d53-i0-25",
+        "labelFeet": 31.0,
+        "predictedFeet": 31.327757913866016,
+        "residualFeet": 0.8277579138660158,
+        "inlier": false
+      },
+      {
+        "labelId": "p3-label-09",
+        "edgeId": "p3-d57-i0-29",
+        "labelFeet": 12.0,
+        "predictedFeet": 11.086137458524247,
+        "residualFeet": -0.4138625414757531,
+        "inlier": true
+      },
+      {
+        "labelId": "p3-label-10",
+        "edgeId": "p3-d66-i0-38",
+        "labelFeet": 22.0,
+        "predictedFeet": 20.999994557245696,
+        "residualFeet": -0.5000054427543041,
+        "inlier": true
+      },
+      {
+        "labelId": "p3-label-11",
+        "edgeId": "p3-d59-i0-31",
+        "labelFeet": 11.0,
+        "predictedFeet": 9.93749314350256,
+        "residualFeet": -0.5625068564974391,
+        "inlier": false
+      },
+      {
+        "labelId": "p3-label-13",
+        "edgeId": "p3-d67-i0-39",
+        "labelFeet": 18.0,
+        "predictedFeet": 17.425044015720168,
+        "residualFeet": -0.07495598427983197,
+        "inlier": true
+      },
+      {
+        "labelId": "p3-label-15",
+        "edgeId": "p3-d24-i0-6",
+        "labelFeet": 11.0,
+        "predictedFeet": 10.573055018307548,
+        "residualFeet": 0.07305501830754757,
+        "inlier": true
+      },
+      {
+        "labelId": "p3-label-16",
+        "edgeId": "p3-d31-i0-10",
+        "labelFeet": 22.0,
+        "predictedFeet": 22.23715451367997,
+        "residualFeet": 0.7371545136799718,
+        "inlier": false
+      },
+      {
+        "labelId": "p3-label-17",
+        "edgeId": "p3-d28-i0-7",
+        "labelFeet": 17.0,
+        "predictedFeet": 17.14853905048905,
+        "residualFeet": 0.6485390504890489,
+        "inlier": false
+      },
+      {
+        "labelId": "p3-label-18",
+        "edgeId": "p3-d30-i0-9",
+        "labelFeet": 17.0,
+        "predictedFeet": 16.559550084965412,
+        "residualFeet": 0.05955008496541225,
+        "inlier": true
+      },
+      {
+        "labelId": "p3-label-19",
+        "edgeId": "p3-d23-i0-5",
+        "labelFeet": 17.0,
+        "predictedFeet": 16.559462842492277,
+        "residualFeet": 0.059462842492276735,
+        "inlier": true
+      },
+      {
+        "labelId": "p3-label-20",
+        "edgeId": "p3-d29-i0-8",
+        "labelFeet": 24.0,
+        "predictedFeet": 23.508810032194862,
+        "residualFeet": 0.008810032194862316,
+        "inlier": true
+      }
+    ],
+    "tolerances": {
+      "scalePercent": 3.0,
+      "facetAreaPercent": 5.0,
+      "classTotalPercent": 3.0
+    },
+    "originPagePoint": [
+      141.9969940185547,
+      714.3309936523438
+    ],
+    "yAxis": "inverted_pdf_y",
+    "lengthToArea": {
+      "scale": 1.09647004339547,
+      "translate_x": -28.713517216946713,
+      "translate_y": -37.83028043024689,
+      "width_ratio": 1.0964691898970385,
+      "height_ratio": 1.0964708968939012,
+      "disagreement_percent": 0.0001556811217079051,
+      "rotation_degrees": 0.0
+    },
+    "pitchToArea": {
+      "scale": 0.8181315635487404,
+      "translate_x": 54.13048052720073,
+      "translate_y": 129.9141872975846,
+      "width_ratio": 0.8181314326480839,
+      "height_ratio": 0.8181316944493969,
+      "disagreement_percent": 3.199990377308729e-05,
+      "rotation_degrees": 0.0
+    },
+    "method": "Dimension-label robust fit; outline-bounds similarity registration; no page scale bar."
+  },
+  "facets": [
+    {
+      "id": "roofr-facet-01",
+      "name": "Roofr facet 1",
+      "sourceFormat": "roofr",
+      "pageNumber": 4,
+      "areaLabelSqFt": 25.0,
+      "areaRoundedUp": true,
+      "roofType": "pitched",
+      "polygonPagePoints": [
+        [
+          404.31201,
+          254.16302
+        ],
+        [
+          404.31201,
+          276.38501
+        ],
+        [
+          323.88699,
+          276.38501
+        ],
+        [
+          323.88699,
+          254.16302
+        ]
+      ],
+      "labelPagePoint": [
+        379.45799,
+        258.37405
+      ],
+      "pitch": {
+        "notation": "5:12",
+        "rise": 5.0,
+        "run": 12.0,
+        "degrees": 22.619864948040426
+      },
+      "downslopeDirectionPage": [
+        0.000175,
+        -1.0
+      ],
+      "drawOrder": 8,
+      "drawOrderSource": "pdf_content_stream",
+      "source": "vector_outline_and_selectable_area_label",
+      "confidence": "medium",
+      "overlapCandidates": 1,
+      "pitchLabelPagePoint": [
+        398.29201,
+        165.32399
+      ],
+      "pitchSource": "selectable_pitch_label_and_vector_direction_arrow",
+      "arrowPagePoint": [
+        398.88651,
+        154.29251
+      ],
+      "arrowLabelDistancePoints": 11.047,
+      "feetPerPoint": 0.11478308480829846,
+      "polygonFeet": [
+        [
+          30.109327,
+          52.8195
+        ],
+        [
+          30.109327,
+          50.268791
+        ],
+        [
+          20.877895,
+          50.268791
+        ],
+        [
+          20.877895,
+          52.8195
+        ]
+      ]
+    },
+    {
+      "id": "roofr-facet-02",
+      "name": "Roofr facet 2",
+      "sourceFormat": "roofr",
+      "pageNumber": 4,
+      "areaLabelSqFt": 58.0,
+      "areaRoundedUp": true,
+      "roofType": "pitched",
+      "polygonPagePoints": [
+        [
+          179.14799,
+          254.16302
+        ],
+        [
+          308.24899,
+          254.16302
+        ],
+        [
+          243.698,
+          317.99902
+        ]
+      ],
+      "labelPagePoint": [
+        243.50201,
+        273.69398
+      ],
+      "pitch": {
+        "notation": "5:12",
+        "rise": 5.0,
+        "run": 12.0,
+        "degrees": 22.619864948040426
+      },
+      "downslopeDirectionPage": [
+        -0.000181,
+        -1.0
+      ],
+      "drawOrder": 15,
+      "drawOrderSource": "pdf_content_stream",
+      "source": "vector_outline_and_selectable_area_label",
+      "confidence": "medium",
+      "overlapCandidates": 1,
+      "pitchLabelPagePoint": [
+        232.112,
+        184.05403
+      ],
+      "pitchSource": "selectable_pitch_label_and_vector_direction_arrow",
+      "arrowPagePoint": [
+        232.70551,
+        173.01953
+      ],
+      "arrowLabelDistancePoints": 11.05,
+      "feetPerPoint": 0.11478308480829846,
+      "polygonFeet": [
+        [
+          4.264306,
+          52.8195
+        ],
+        [
+          19.082917,
+          52.8195
+        ],
+        [
+          11.673555,
+          45.492207
+        ]
+      ]
+    },
+    {
+      "id": "roofr-facet-03",
+      "name": "Roofr facet 3",
+      "sourceFormat": "roofr",
+      "pageNumber": 4,
+      "areaLabelSqFt": 16.0,
+      "areaRoundedUp": true,
+      "roofType": "pitched",
+      "polygonPagePoints": [
+        [
+          308.24899,
+          254.16302
+        ],
+        [
+          308.24899,
+          270.44702
+        ],
+        [
+          243.698,
+          335.26401
+        ],
+        [
+          243.698,
+          317.99902
+        ]
+      ],
+      "labelPagePoint": [
+        249.762,
+        313.834
+      ],
+      "pitch": {
+        "notation": "5:12",
+        "rise": 5.0,
+        "run": 12.0,
+        "degrees": 22.619864948040426
+      },
+      "downslopeDirectionPage": [
+        1.0,
+        0.000164
+      ],
+      "drawOrder": 14,
+      "drawOrderSource": "pdf_content_stream",
+      "source": "vector_outline_and_selectable_area_label",
+      "confidence": "medium",
+      "overlapCandidates": 2,
+      "pitchLabelPagePoint": [
+        239.772,
+        233.10402
+      ],
+      "pitchSource": "selectable_pitch_label_and_vector_direction_arrow",
+      "arrowPagePoint": [
+        251.5235,
+        233.23453
+      ],
+      "arrowLabelDistancePoints": 11.752,
+      "feetPerPoint": 0.11478308480829846,
+      "polygonFeet": [
+        [
+          19.082917,
+          52.8195
+        ],
+        [
+          19.082917,
+          50.950372
+        ],
+        [
+          11.673555,
+          43.510478
+        ],
+        [
+          11.673555,
+          45.492207
+        ]
+      ]
+    },
+    {
+      "id": "roofr-facet-04",
+      "name": "Roofr facet 4",
+      "sourceFormat": "roofr",
+      "pageNumber": 4,
+      "areaLabelSqFt": 203.0,
+      "areaRoundedUp": true,
+      "roofType": "pitched",
+      "polygonPagePoints": [
+        [
+          453.27802,
+          270.44702
+        ],
+        [
+          323.88699,
+          400.08102
+        ],
+        [
+          308.24899,
+          400.08102
+        ],
+        [
+          243.698,
+          335.26401
+        ],
+        [
+          308.24899,
+          270.44702
+        ]
+      ],
+      "labelPagePoint": [
+        329.30399,
+        314.69398
+      ],
+      "pitch": {
+        "notation": "5:12",
+        "rise": 5.0,
+        "run": 12.0,
+        "degrees": 22.619864948040426
+      },
+      "downslopeDirectionPage": [
+        -0.000175,
+        -1.0
+      ],
+      "drawOrder": 11,
+      "drawOrderSource": "pdf_content_stream",
+      "source": "vector_outline_and_selectable_area_label",
+      "confidence": "medium",
+      "overlapCandidates": 1,
+      "pitchLabelPagePoint": [
+        336.972,
+        234.16402
+      ],
+      "pitchSource": "selectable_pitch_label_and_vector_direction_arrow",
+      "arrowPagePoint": [
+        337.5715,
+        223.12903
+      ],
+      "arrowLabelDistancePoints": 11.051,
+      "feetPerPoint": 0.11478308480829846,
+      "polygonFeet": [
+        [
+          35.729796,
+          50.950372
+        ],
+        [
+          20.877895,
+          36.070581
+        ],
+        [
+          19.082917,
+          36.070581
+        ],
+        [
+          11.673555,
+          43.510478
+        ],
+        [
+          19.082917,
+          50.950372
+        ]
+      ]
+    },
+    {
+      "id": "roofr-facet-05",
+      "name": "Roofr facet 5",
+      "sourceFormat": "roofr",
+      "pageNumber": 4,
+      "areaLabelSqFt": 248.0,
+      "areaRoundedUp": true,
+      "roofType": "pitched",
+      "polygonPagePoints": [
+        [
+          308.24899,
+          400.08102
+        ],
+        [
+          179.14799,
+          529.71503
+        ],
+        [
+          179.14799,
+          254.16302
+        ],
+        [
+          243.698,
+          317.99902
+        ],
+        [
+          243.698,
+          335.26401
+        ]
+      ],
+      "labelPagePoint": [
+        232.63199,
+        393.51402
+      ],
+      "pitch": {
+        "notation": "5:12",
+        "rise": 5.0,
+        "run": 12.0,
+        "degrees": 22.619864948040426
+      },
+      "downslopeDirectionPage": [
+        -1.0,
+        -5e-06
+      ],
+      "drawOrder": 13,
+      "drawOrderSource": "pdf_content_stream",
+      "source": "vector_outline_and_selectable_area_label",
+      "confidence": "medium",
+      "overlapCandidates": 1,
+      "pitchLabelPagePoint": [
+        218.812,
+        330.50401
+      ],
+      "pitchSource": "selectable_pitch_label_and_vector_direction_arrow",
+      "arrowPagePoint": [
+        208.2495,
+        330.62703
+      ],
+      "arrowLabelDistancePoints": 10.563,
+      "feetPerPoint": 0.11478308480829846,
+      "polygonFeet": [
+        [
+          19.082917,
+          36.070581
+        ],
+        [
+          4.264306,
+          21.19079
+        ],
+        [
+          4.264306,
+          52.8195
+        ],
+        [
+          11.673555,
+          45.492207
+        ],
+        [
+          11.673555,
+          43.510478
+        ]
+      ]
+    },
+    {
+      "id": "roofr-facet-06",
+      "name": "Roofr facet 6",
+      "sourceFormat": "roofr",
+      "pageNumber": 4,
+      "areaLabelSqFt": 265.0,
+      "areaRoundedUp": true,
+      "roofType": "pitched",
+      "polygonPagePoints": [
+        [
+          323.88699,
+          400.08102
+        ],
+        [
+          453.27802,
+          270.44702
+        ],
+        [
+          453.27802,
+          543.37598
+        ],
+        [
+          446.02899,
+          535.79004
+        ],
+        [
+          392.117,
+          535.79004
+        ],
+        [
+          392.117,
+          468.44
+        ]
+      ],
+      "labelPagePoint": [
+        399.72801,
+        393.94402
+      ],
+      "pitch": {
+        "notation": "5:12",
+        "rise": 5.0,
+        "run": 12.0,
+        "degrees": 22.619864948040426
+      },
+      "downslopeDirectionPage": [
+        1.0,
+        0.000175
+      ],
+      "drawOrder": 9,
+      "drawOrderSource": "pdf_content_stream",
+      "source": "vector_outline_and_selectable_area_label",
+      "confidence": "medium",
+      "overlapCandidates": 1,
+      "pitchLabelPagePoint": [
+        423.05199,
+        331.03401
+      ],
+      "pitchSource": "selectable_pitch_label_and_vector_direction_arrow",
+      "arrowPagePoint": [
+        434.80949,
+        331.16351
+      ],
+      "arrowLabelDistancePoints": 11.758,
+      "feetPerPoint": 0.11478308480829846,
+      "polygonFeet": [
+        [
+          20.877895,
+          36.070581
+        ],
+        [
+          35.729796,
+          50.950372
+        ],
+        [
+          35.729796,
+          19.622744
+        ],
+        [
+          34.89773,
+          20.493481
+        ],
+        [
+          28.709546,
+          20.493481
+        ],
+        [
+          28.709546,
+          28.224127
+        ]
+      ]
+    },
+    {
+      "id": "roofr-facet-07",
+      "name": "Roofr facet 7",
+      "sourceFormat": "roofr",
+      "pageNumber": 4,
+      "areaLabelSqFt": 25.0,
+      "areaRoundedUp": true,
+      "roofType": "pitched",
+      "polygonPagePoints": [
+        [
+          141.99699,
+          489.55002
+        ],
+        [
+          141.99699,
+          407.923
+        ],
+        [
+          163.86,
+          407.923
+        ],
+        [
+          163.86,
+          489.55002
+        ]
+      ],
+      "labelPagePoint": [
+        152.948,
+        441.834
+      ],
+      "pitch": {
+        "notation": "4:12",
+        "rise": 4.0,
+        "run": 12.0,
+        "degrees": 18.43494882292201
+      },
+      "downslopeDirectionPage": [
+        -1.0,
+        0.000175
+      ],
+      "drawOrder": 5,
+      "drawOrderSource": "pdf_content_stream",
+      "source": "vector_outline_and_selectable_area_label",
+      "confidence": "medium",
+      "overlapCandidates": 1,
+      "pitchLabelPagePoint": [
+        121.45601,
+        389.57402
+      ],
+      "pitchSource": "selectable_pitch_label_and_vector_direction_arrow",
+      "arrowPagePoint": [
+        110.7905,
+        389.69553
+      ],
+      "arrowLabelDistancePoints": 10.666,
+      "feetPerPoint": 0.11478308480829846,
+      "polygonFeet": [
+        [
+          -0.0,
+          25.801054
+        ],
+        [
+          -0.0,
+          35.170455
+        ],
+        [
+          2.509503,
+          35.170455
+        ],
+        [
+          2.509503,
+          25.801054
+        ]
+      ]
+    },
+    {
+      "id": "roofr-facet-08",
+      "name": "Roofr facet 8",
+      "sourceFormat": "roofr",
+      "pageNumber": 4,
+      "areaLabelSqFt": 25.0,
+      "areaRoundedUp": true,
+      "roofType": "pitched",
+      "polygonPagePoints": [
+        [
+          185.724,
+          407.923
+        ],
+        [
+          185.724,
+          489.55002
+        ],
+        [
+          163.86,
+          489.55002
+        ],
+        [
+          163.86,
+          407.923
+        ]
+      ],
+      "labelPagePoint": [
+        174.808,
+        441.834
+      ],
+      "pitch": {
+        "notation": "4:12",
+        "rise": 4.0,
+        "run": 12.0,
+        "degrees": 18.43494882292201
+      },
+      "downslopeDirectionPage": [
+        1.0,
+        0.000175
+      ],
+      "drawOrder": 4,
+      "drawOrderSource": "pdf_content_stream",
+      "source": "vector_outline_and_selectable_area_label",
+      "confidence": "medium",
+      "overlapCandidates": 1,
+      "pitchLabelPagePoint": [
+        148.176,
+        389.57402
+      ],
+      "pitchSource": "selectable_pitch_label_and_vector_direction_arrow",
+      "arrowPagePoint": [
+        159.83,
+        389.69553
+      ],
+      "arrowLabelDistancePoints": 11.655,
+      "feetPerPoint": 0.11478308480829846,
+      "polygonFeet": [
+        [
+          5.019121,
+          35.170455
+        ],
+        [
+          5.019121,
+          25.801054
+        ],
+        [
+          2.509503,
+          25.801054
+        ],
+        [
+          2.509503,
+          35.170455
+        ]
+      ]
+    },
+    {
+      "id": "roofr-facet-09",
+      "name": "Roofr facet 9",
+      "sourceFormat": "roofr",
+      "pageNumber": 4,
+      "areaLabelSqFt": 209.0,
+      "areaRoundedUp": true,
+      "roofType": "pitched",
+      "polygonPagePoints": [
+        [
+          179.14799,
+          529.71503
+        ],
+        [
+          308.24899,
+          400.08102
+        ],
+        [
+          323.88699,
+          400.08102
+        ],
+        [
+          392.117,
+          468.44
+        ],
+        [
+          330.95599,
+          529.71503
+        ]
+      ],
+      "labelPagePoint": [
+        310.32599,
+        467.61403
+      ],
+      "pitch": {
+        "notation": "5:12",
+        "rise": 5.0,
+        "run": 12.0,
+        "degrees": 22.619864948040426
+      },
+      "downslopeDirectionPage": [
+        -0.000175,
+        1.0
+      ],
+      "drawOrder": 12,
+      "drawOrderSource": "pdf_content_stream",
+      "source": "vector_outline_and_selectable_area_label",
+      "confidence": "medium",
+      "overlapCandidates": 1,
+      "pitchLabelPagePoint": [
+        313.782,
+        421.084
+      ],
+      "pitchSource": "selectable_pitch_label_and_vector_direction_arrow",
+      "arrowPagePoint": [
+        314.3775,
+        432.36801
+      ],
+      "arrowLabelDistancePoints": 11.3,
+      "feetPerPoint": 0.11478308480829846,
+      "polygonFeet": [
+        [
+          4.264306,
+          21.19079
+        ],
+        [
+          19.082917,
+          36.070581
+        ],
+        [
+          20.877895,
+          36.070581
+        ],
+        [
+          28.709546,
+          28.224127
+        ],
+        [
+          21.689296,
+          21.19079
+        ]
+      ]
+    },
+    {
+      "id": "roofr-facet-10",
+      "name": "Roofr facet 10",
+      "sourceFormat": "roofr",
+      "pageNumber": 4,
+      "areaLabelSqFt": 32.0,
+      "areaRoundedUp": true,
+      "roofType": "pitched",
+      "polygonPagePoints": [
+        [
+          330.95599,
+          543.37598
+        ],
+        [
+          330.95599,
+          529.71503
+        ],
+        [
+          392.117,
+          468.44
+        ],
+        [
+          392.117,
+          535.79004
+        ],
+        [
+          338.46799,
+          535.79004
+        ]
+      ],
+      "labelPagePoint": [
+        372.53799,
+        508.84399
+      ],
+      "pitch": {
+        "notation": "5:12",
+        "rise": 5.0,
+        "run": 12.0,
+        "degrees": 22.619864948040426
+      },
+      "downslopeDirectionPage": [
+        -1.0,
+        0.000186
+      ],
+      "drawOrder": 10,
+      "drawOrderSource": "pdf_content_stream",
+      "source": "vector_outline_and_selectable_area_label",
+      "confidence": "medium",
+      "overlapCandidates": 1,
+      "pitchLabelPagePoint": [
+        389.842,
+        471.47401
+      ],
+      "pitchSource": "selectable_pitch_label_and_vector_direction_arrow",
+      "arrowPagePoint": [
+        379.27701,
+        471.59851
+      ],
+      "arrowLabelDistancePoints": 10.566,
+      "feetPerPoint": 0.11478308480829846,
+      "polygonFeet": [
+        [
+          21.689296,
+          19.622744
+        ],
+        [
+          21.689296,
+          21.19079
+        ],
+        [
+          28.709546,
+          28.224127
+        ],
+        [
+          28.709546,
+          20.493481
+        ],
+        [
+          22.551547,
+          20.493481
+        ]
+      ]
+    },
+    {
+      "id": "roofr-facet-11",
+      "name": "Roofr facet 11",
+      "sourceFormat": "roofr",
+      "pageNumber": 4,
+      "areaLabelSqFt": 8.0,
+      "areaRoundedUp": true,
+      "roofType": "pitched",
+      "polygonPagePoints": [
+        [
+          366.95999,
+          543.37598
+        ],
+        [
+          330.95599,
+          543.37598
+        ],
+        [
+          338.46799,
+          535.79004
+        ],
+        [
+          341.38501,
+          525.48206
+        ],
+        [
+          366.95999,
+          525.48206
+        ]
+      ],
+      "labelPagePoint": [
+        348.97002,
+        527.52399
+      ],
+      "pitch": {
+        "notation": "5:12",
+        "rise": 5.0,
+        "run": 12.0,
+        "degrees": 22.619864948040426
+      },
+      "downslopeDirectionPage": [
+        0.000186,
+        1.0
+      ],
+      "drawOrder": 7,
+      "drawOrderSource": "pdf_content_stream",
+      "source": "vector_outline_and_selectable_area_label",
+      "confidence": "medium",
+      "overlapCandidates": 2,
+      "pitchLabelPagePoint": [
+        361.032,
+        494.31401
+      ],
+      "pitchSource": "selectable_pitch_label_and_vector_direction_arrow",
+      "arrowPagePoint": [
+        361.6265,
+        505.5955
+      ],
+      "arrowLabelDistancePoints": 11.297,
+      "feetPerPoint": 0.11478308480829846,
+      "polygonFeet": [
+        [
+          25.821947,
+          19.622744
+        ],
+        [
+          21.689296,
+          19.622744
+        ],
+        [
+          22.551547,
+          20.493481
+        ],
+        [
+          22.886372,
+          21.676663
+        ],
+        [
+          25.821947,
+          21.676663
+        ]
+      ]
+    },
+    {
+      "id": "roofr-facet-12",
+      "name": "Roofr facet 12",
+      "sourceFormat": "roofr",
+      "pageNumber": 4,
+      "areaLabelSqFt": 8.0,
+      "areaRoundedUp": true,
+      "roofType": "pitched",
+      "polygonPagePoints": [
+        [
+          453.27802,
+          543.37598
+        ],
+        [
+          417.78299,
+          543.37598
+        ],
+        [
+          417.78299,
+          525.48206
+        ],
+        [
+          443.24899,
+          525.48206
+        ],
+        [
+          446.02899,
+          535.79004
+        ]
+      ],
+      "labelPagePoint": [
+        435.53999,
+        527.52399
+      ],
+      "pitch": {
+        "notation": "5:12",
+        "rise": 5.0,
+        "run": 12.0,
+        "degrees": 22.619864948040426
+      },
+      "downslopeDirectionPage": [
+        0.000186,
+        1.0
+      ],
+      "drawOrder": 6,
+      "drawOrderSource": "pdf_content_stream",
+      "source": "vector_outline_and_selectable_area_label",
+      "confidence": "medium",
+      "overlapCandidates": 2,
+      "pitchLabelPagePoint": [
+        466.85201,
+        494.31401
+      ],
+      "pitchSource": "selectable_pitch_label_and_vector_direction_arrow",
+      "arrowPagePoint": [
+        467.44449,
+        505.5955
+      ],
+      "arrowLabelDistancePoints": 11.297,
+      "feetPerPoint": 0.11478308480829846,
+      "polygonFeet": [
+        [
+          35.729796,
+          19.622744
+        ],
+        [
+          31.655567,
+          19.622744
+        ],
+        [
+          31.655567,
+          21.676663
+        ],
+        [
+          34.578633,
+          21.676663
+        ],
+        [
+          34.89773,
+          20.493481
+        ]
+      ]
+    },
+    {
+      "id": "roofr-facet-13",
+      "name": "Roofr facet 13",
+      "sourceFormat": "roofr",
+      "pageNumber": 4,
+      "areaLabelSqFt": 43.0,
+      "areaRoundedUp": true,
+      "roofType": "pitched",
+      "polygonPagePoints": [
+        [
+          453.27802,
+          530.18103
+        ],
+        [
+          453.27802,
+          564.93201
+        ],
+        [
+          383.95901,
+          564.93201
+        ],
+        [
+          348.32901,
+          530.18103
+        ]
+      ],
+      "labelPagePoint": [
+        435.218,
+        540.65399
+      ],
+      "pitch": {
+        "notation": "5:12",
+        "rise": 5.0,
+        "run": 12.0,
+        "degrees": 22.619864948040426
+      },
+      "downslopeDirectionPage": [
+        -0.000186,
+        1.0
+      ],
+      "drawOrder": 0,
+      "drawOrderSource": "pdf_content_stream",
+      "source": "vector_outline_and_selectable_area_label",
+      "confidence": "medium",
+      "overlapCandidates": 2,
+      "pitchLabelPagePoint": [
+        466.45201,
+        510.354
+      ],
+      "pitchSource": "selectable_pitch_label_and_vector_direction_arrow",
+      "arrowPagePoint": [
+        467.04651,
+        521.64053
+      ],
+      "arrowLabelDistancePoints": 11.302,
+      "feetPerPoint": 0.11478308480829846,
+      "polygonFeet": [
+        [
+          35.729796,
+          21.137301
+        ],
+        [
+          35.729796,
+          17.148476
+        ],
+        [
+          27.773147,
+          17.148476
+        ],
+        [
+          23.683425,
+          21.137301
+        ]
+      ]
+    },
+    {
+      "id": "roofr-facet-14",
+      "name": "Roofr facet 14",
+      "sourceFormat": "roofr",
+      "pageNumber": 4,
+      "areaLabelSqFt": 204.0,
+      "areaRoundedUp": true,
+      "roofType": "pitched",
+      "polygonPagePoints": [
+        [
+          281.55301,
+          612.71204
+        ],
+        [
+          179.14799,
+          714.33099
+        ],
+        [
+          179.14799,
+          520.599
+        ],
+        [
+          281.55301,
+          520.599
+        ]
+      ],
+      "labelPagePoint": [
+        230.37799,
+        564.90399
+      ],
+      "pitch": {
+        "notation": "5:12",
+        "rise": 5.0,
+        "run": 12.0,
+        "degrees": 22.619864948040426
+      },
+      "downslopeDirectionPage": [
+        -1.0,
+        -0.000175
+      ],
+      "drawOrder": 3,
+      "drawOrderSource": "pdf_content_stream",
+      "source": "vector_outline_and_selectable_area_label",
+      "confidence": "medium",
+      "overlapCandidates": 1,
+      "pitchLabelPagePoint": [
+        216.052,
+        539.99402
+      ],
+      "pitchSource": "selectable_pitch_label_and_vector_direction_arrow",
+      "arrowPagePoint": [
+        205.4955,
+        540.11853
+      ],
+      "arrowLabelDistancePoints": 10.557,
+      "feetPerPoint": 0.11478308480829846,
+      "polygonFeet": [
+        [
+          16.01867,
+          11.664137
+        ],
+        [
+          4.264306,
+          0.0
+        ],
+        [
+          4.264306,
+          22.237156
+        ],
+        [
+          16.01867,
+          22.237156
+        ]
+      ]
+    },
+    {
+      "id": "roofr-facet-15",
+      "name": "Roofr facet 15",
+      "sourceFormat": "roofr",
+      "pageNumber": 4,
+      "areaLabelSqFt": 189.0,
+      "areaRoundedUp": true,
+      "roofType": "pitched",
+      "polygonPagePoints": [
+        [
+          383.95901,
+          714.33099
+        ],
+        [
+          281.55301,
+          612.71204
+        ],
+        [
+          281.55301,
+          520.599
+        ],
+        [
+          340.05499,
+          520.599
+        ],
+        [
+          340.05499,
+          530.18103
+        ],
+        [
+          348.32901,
+          530.18103
+        ],
+        [
+          383.95901,
+          564.93201
+        ]
+      ],
+      "labelPagePoint": [
+        333.57602,
+        580.104
+      ],
+      "pitch": {
+        "notation": "5:12",
+        "rise": 5.0,
+        "run": 12.0,
+        "degrees": 22.619864948040426
+      },
+      "downslopeDirectionPage": [
+        1.0,
+        -0.000186
+      ],
+      "drawOrder": 1,
+      "drawOrderSource": "pdf_content_stream",
+      "source": "vector_outline_and_selectable_area_label",
+      "confidence": "medium",
+      "overlapCandidates": 1,
+      "pitchLabelPagePoint": [
+        342.20201,
+        558.57397
+      ],
+      "pitchSource": "selectable_pitch_label_and_vector_direction_arrow",
+      "arrowPagePoint": [
+        353.9595,
+        558.69852
+      ],
+      "arrowLabelDistancePoints": 11.758,
+      "feetPerPoint": 0.11478308480829846,
+      "polygonFeet": [
+        [
+          27.773147,
+          0.0
+        ],
+        [
+          16.01867,
+          11.664137
+        ],
+        [
+          16.01867,
+          22.237156
+        ],
+        [
+          22.733708,
+          22.237156
+        ],
+        [
+          22.733708,
+          21.137301
+        ],
+        [
+          23.683425,
+          21.137301
+        ],
+        [
+          27.773147,
+          17.148476
+        ]
+      ]
+    },
+    {
+      "id": "roofr-facet-16",
+      "name": "Roofr facet 16",
+      "sourceFormat": "roofr",
+      "pageNumber": 4,
+      "areaLabelSqFt": 145.0,
+      "areaRoundedUp": true,
+      "roofType": "pitched",
+      "polygonPagePoints": [
+        [
+          383.95901,
+          714.33099
+        ],
+        [
+          179.14799,
+          714.33099
+        ],
+        [
+          281.55301,
+          612.71204
+        ]
+      ],
+      "labelPagePoint": [
+        281.58,
+        665.354
+      ],
+      "pitch": {
+        "notation": "5:12",
+        "rise": 5.0,
+        "run": 12.0,
+        "degrees": 22.619864948040426
+      },
+      "downslopeDirectionPage": [
+        -0.000175,
+        1.0
+      ],
+      "drawOrder": 2,
+      "drawOrderSource": "pdf_content_stream",
+      "source": "vector_outline_and_selectable_area_label",
+      "confidence": "medium",
+      "overlapCandidates": 1,
+      "pitchLabelPagePoint": [
+        278.65199,
+        662.77399
+      ],
+      "pitchSource": "selectable_pitch_label_and_vector_direction_arrow",
+      "arrowPagePoint": [
+        279.2475,
+        674.05853
+      ],
+      "arrowLabelDistancePoints": 11.3,
+      "feetPerPoint": 0.11478308480829846,
+      "polygonFeet": [
+        [
+          27.773147,
+          0.0
+        ],
+        [
+          4.264306,
+          0.0
+        ],
+        [
+          16.01867,
+          11.664137
+        ]
+      ]
+    }
+  ],
+  "facetCount": 16,
+  "expectedFacetCount": 16,
+  "edgeClassTotals": {
+    "drawnFeet": {
+      "unspecified": 2.43,
+      "rake": 35.582,
+      "eave": 212.943,
+      "valley": 26.15,
+      "hip": 120.0,
+      "ridge": 31.45
+    },
+    "reportedFeet": {
+      "eave": 210.08333333333334,
+      "valley": 26.916666666666668,
+      "hip": 123.41666666666667,
+      "ridge": 31.0,
+      "rake": 37.75,
+      "wall_flashing": 37.083333333333336,
+      "step_flashing": 23.333333333333332,
+      "curb_flashing": 0.0,
+      "transition": 0.0,
+      "unspecified": 2.4166666666666665
+    }
+  },
+  "reported": {
+    "totalRoofAreaSqFt": 1693.0,
+    "pitchedRoofAreaSqFt": 1693.0,
+    "flatRoofAreaSqFt": 0.0
+  },
+  "validation": {
+    "checks": [
+      {
+        "name": "dimension_scale",
+        "status": "pass",
+        "actual": 0.12585621,
+        "expected": null,
+        "tolerancePercent": 3.0,
+        "unit": "ft/pt",
+        "inlierCount": 15,
+        "observationCount": 21,
+        "rSquared": 0.9984639059208497,
+        "residualRmsFeet": 0.23361445987141805,
+        "reason": null
+      },
+      {
+        "name": "page_registration",
+        "status": "pass",
+        "actual": 0.0002,
+        "expected": 0,
+        "tolerancePercent": 3.0,
+        "unit": "%",
+        "widthScale": 1.0964691898970385,
+        "heightScale": 1.0964708968939012
+      },
+      {
+        "name": "page_registration",
+        "status": "pass",
+        "actual": 0.0,
+        "expected": 0,
+        "tolerancePercent": 3.0,
+        "unit": "%",
+        "widthScale": 0.8181314326480839,
+        "heightScale": 0.8181316944493969
+      },
+      {
+        "name": "facet:roofr-facet-01:slope_area",
+        "status": "pass",
+        "actual": 25.508917,
+        "expected": 25.0,
+        "tolerancePercent": 5.0,
+        "unit": "sq ft",
+        "differencePercent": 2.036,
+        "oneSided": true
+      },
+      {
+        "name": "facet:roofr-facet-02:slope_area",
+        "status": "pass",
+        "actual": 58.814332,
+        "expected": 58.0,
+        "tolerancePercent": 5.0,
+        "unit": "sq ft",
+        "differencePercent": 1.404,
+        "oneSided": true
+      },
+      {
+        "name": "facet:roofr-facet-03:slope_area",
+        "status": "pass",
+        "actual": 15.455044,
+        "expected": 16.0,
+        "tolerancePercent": 5.0,
+        "unit": "sq ft",
+        "differencePercent": 3.406,
+        "oneSided": true
+      },
+      {
+        "name": "facet:roofr-facet-04:slope_area",
+        "status": "pass",
+        "actual": 208.357891,
+        "expected": 203.0,
+        "tolerancePercent": 5.0,
+        "unit": "sq ft",
+        "differencePercent": 2.639,
+        "oneSided": true
+      },
+      {
+        "name": "facet:roofr-facet-05:slope_area",
+        "status": "pass",
+        "actual": 254.32702,
+        "expected": 248.0,
+        "tolerancePercent": 5.0,
+        "unit": "sq ft",
+        "differencePercent": 2.551,
+        "oneSided": true
+      },
+      {
+        "name": "facet:roofr-facet-06:slope_area",
+        "status": "pass",
+        "actual": 271.85095,
+        "expected": 265.0,
+        "tolerancePercent": 5.0,
+        "unit": "sq ft",
+        "differencePercent": 2.585,
+        "oneSided": true
+      },
+      {
+        "name": "facet:roofr-facet-07:slope_area",
+        "status": "pass",
+        "actual": 24.784401,
+        "expected": 25.0,
+        "tolerancePercent": 5.0,
+        "unit": "sq ft",
+        "differencePercent": 0.862,
+        "oneSided": true
+      },
+      {
+        "name": "facet:roofr-facet-08:slope_area",
+        "status": "pass",
+        "actual": 24.785523,
+        "expected": 25.0,
+        "tolerancePercent": 5.0,
+        "unit": "sq ft",
+        "differencePercent": 0.858,
+        "oneSided": true
+      },
+      {
+        "name": "facet:roofr-facet-09:slope_area",
+        "status": "pass",
+        "actual": 214.584409,
+        "expected": 209.0,
+        "tolerancePercent": 5.0,
+        "unit": "sq ft",
+        "differencePercent": 2.672,
+        "oneSided": true
+      },
+      {
+        "name": "facet:roofr-facet-10:slope_area",
+        "status": "pass",
+        "actual": 32.455113,
+        "expected": 32.0,
+        "tolerancePercent": 5.0,
+        "unit": "sq ft",
+        "differencePercent": 1.422,
+        "oneSided": true
+      },
+      {
+        "name": "facet:roofr-facet-11:slope_area",
+        "status": "pass",
+        "actual": 7.468993,
+        "expected": 8.0,
+        "tolerancePercent": 5.0,
+        "unit": "sq ft",
+        "differencePercent": 6.638,
+        "oneSided": true
+      },
+      {
+        "name": "facet:roofr-facet-12:slope_area",
+        "status": "pass",
+        "actual": 7.402007,
+        "expected": 8.0,
+        "tolerancePercent": 5.0,
+        "unit": "sq ft",
+        "differencePercent": 7.475,
+        "oneSided": true
+      },
+      {
+        "name": "facet:roofr-facet-13:slope_area",
+        "status": "pass",
+        "actual": 43.218794,
+        "expected": 43.0,
+        "tolerancePercent": 5.0,
+        "unit": "sq ft",
+        "differencePercent": 0.509,
+        "oneSided": true
+      },
+      {
+        "name": "facet:roofr-facet-14:slope_area",
+        "status": "pass",
+        "actual": 208.900648,
+        "expected": 204.0,
+        "tolerancePercent": 5.0,
+        "unit": "sq ft",
+        "differencePercent": 2.402,
+        "oneSided": true
+      },
+      {
+        "name": "facet:roofr-facet-15:slope_area",
+        "status": "pass",
+        "actual": 194.061801,
+        "expected": 189.0,
+        "tolerancePercent": 5.0,
+        "unit": "sq ft",
+        "differencePercent": 2.678,
+        "oneSided": true
+      },
+      {
+        "name": "facet:roofr-facet-16:slope_area",
+        "status": "pass",
+        "actual": 148.530594,
+        "expected": 145.0,
+        "tolerancePercent": 5.0,
+        "unit": "sq ft",
+        "differencePercent": 2.435,
+        "oneSided": true
+      },
+      {
+        "name": "edge_class:curb_flashing",
+        "status": "pass",
+        "actual": 0.0,
+        "expected": 0.0,
+        "tolerancePercent": 3.0,
+        "unit": "ft",
+        "differencePercent": 0.0,
+        "oneSided": false
+      },
+      {
+        "name": "edge_class:eave",
+        "status": "pass",
+        "actual": 212.943,
+        "expected": 210.083333,
+        "tolerancePercent": 3.0,
+        "unit": "ft",
+        "differencePercent": 1.361,
+        "oneSided": false
+      },
+      {
+        "name": "edge_class:hip",
+        "status": "pass",
+        "actual": 120.0,
+        "expected": 123.416667,
+        "tolerancePercent": 3.0,
+        "unit": "ft",
+        "differencePercent": 2.768,
+        "oneSided": false
+      },
+      {
+        "name": "edge_class:rake",
+        "status": "warn",
+        "actual": 35.582,
+        "expected": 37.75,
+        "tolerancePercent": 3.0,
+        "unit": "ft",
+        "differencePercent": 5.743,
+        "oneSided": false
+      },
+      {
+        "name": "edge_class:ridge",
+        "status": "pass",
+        "actual": 31.45,
+        "expected": 31.0,
+        "tolerancePercent": 3.0,
+        "unit": "ft",
+        "differencePercent": 1.452,
+        "oneSided": false
+      },
+      {
+        "name": "edge_class:step_flashing",
+        "status": "not_evaluable",
+        "actual": null,
+        "expected": 23.333333333333332,
+        "tolerancePercent": 3.0,
+        "unit": "ft",
+        "differencePercent": null,
+        "oneSided": false
+      },
+      {
+        "name": "edge_class:transition",
+        "status": "pass",
+        "actual": 0.0,
+        "expected": 0.0,
+        "tolerancePercent": 3.0,
+        "unit": "ft",
+        "differencePercent": 0.0,
+        "oneSided": false
+      },
+      {
+        "name": "edge_class:unspecified",
+        "status": "pass",
+        "actual": 2.43,
+        "expected": 2.416667,
+        "tolerancePercent": 3.0,
+        "unit": "ft",
+        "differencePercent": 0.552,
+        "oneSided": false
+      },
+      {
+        "name": "edge_class:valley",
+        "status": "pass",
+        "actual": 26.15,
+        "expected": 26.916667,
+        "tolerancePercent": 3.0,
+        "unit": "ft",
+        "differencePercent": 2.848,
+        "oneSided": false
+      },
+      {
+        "name": "edge_class:wall_flashing",
+        "status": "not_evaluable",
+        "actual": null,
+        "expected": 37.083333333333336,
+        "tolerancePercent": 3.0,
+        "unit": "ft",
+        "differencePercent": null,
+        "oneSided": false
+      },
+      {
+        "name": "pitch_gradient:roofr-facet-01",
+        "status": "pass",
+        "actual": 22.619867,
+        "expected": 22.619865,
+        "differenceDegrees": 2e-06,
+        "toleranceDegrees": 1.0,
+        "unit": "degrees"
+      },
+      {
+        "name": "pitch_gradient:roofr-facet-02",
+        "status": "pass",
+        "actual": 22.760743,
+        "expected": 22.619865,
+        "differenceDegrees": 0.140878,
+        "toleranceDegrees": 1.0,
+        "unit": "degrees"
+      },
+      {
+        "name": "pitch_gradient:roofr-facet-03",
+        "status": "pass",
+        "actual": 22.793892,
+        "expected": 22.619865,
+        "differenceDegrees": 0.174027,
+        "toleranceDegrees": 1.0,
+        "unit": "degrees"
+      },
+      {
+        "name": "pitch_gradient:roofr-facet-04",
+        "status": "pass",
+        "actual": 22.598672,
+        "expected": 22.619865,
+        "differenceDegrees": 0.021193,
+        "toleranceDegrees": 1.0,
+        "unit": "degrees"
+      },
+      {
+        "name": "pitch_gradient:roofr-facet-05",
+        "status": "pass",
+        "actual": 22.636046,
+        "expected": 22.619865,
+        "differenceDegrees": 0.016181,
+        "toleranceDegrees": 1.0,
+        "unit": "degrees"
+      },
+      {
+        "name": "pitch_gradient:roofr-facet-06",
+        "status": "pass",
+        "actual": 22.650706,
+        "expected": 22.619865,
+        "differenceDegrees": 0.030841,
+        "toleranceDegrees": 1.0,
+        "unit": "degrees"
+      },
+      {
+        "name": "pitch_gradient:roofr-facet-07",
+        "status": "pass",
+        "actual": 18.434949,
+        "expected": 18.434949,
+        "differenceDegrees": 0.0,
+        "toleranceDegrees": 1.0,
+        "unit": "degrees"
+      },
+      {
+        "name": "pitch_gradient:roofr-facet-08",
+        "status": "pass",
+        "actual": 18.434953,
+        "expected": 18.434949,
+        "differenceDegrees": 4e-06,
+        "toleranceDegrees": 1.0,
+        "unit": "degrees"
+      },
+      {
+        "name": "pitch_gradient:roofr-facet-09",
+        "status": "pass",
+        "actual": 22.596952,
+        "expected": 22.619865,
+        "differenceDegrees": 0.022913,
+        "toleranceDegrees": 1.0,
+        "unit": "degrees"
+      },
+      {
+        "name": "pitch_gradient:roofr-facet-10",
+        "status": "pass",
+        "actual": 22.608209,
+        "expected": 22.619865,
+        "differenceDegrees": 0.011656,
+        "toleranceDegrees": 1.0,
+        "unit": "degrees"
+      },
+      {
+        "name": "pitch_gradient:roofr-facet-11",
+        "status": "pass",
+        "actual": 22.611881,
+        "expected": 22.619865,
+        "differenceDegrees": 0.007984,
+        "toleranceDegrees": 1.0,
+        "unit": "degrees"
+      },
+      {
+        "name": "pitch_gradient:roofr-facet-12",
+        "status": "pass",
+        "actual": 22.581905,
+        "expected": 22.619865,
+        "differenceDegrees": 0.03796,
+        "toleranceDegrees": 1.0,
+        "unit": "degrees"
+      },
+      {
+        "name": "pitch_gradient:roofr-facet-13",
+        "status": "pass",
+        "actual": 22.743251,
+        "expected": 22.619865,
+        "differenceDegrees": 0.123386,
+        "toleranceDegrees": 1.0,
+        "unit": "degrees"
+      },
+      {
+        "name": "pitch_gradient:roofr-facet-14",
+        "status": "pass",
+        "actual": 22.586228,
+        "expected": 22.619865,
+        "differenceDegrees": 0.033637,
+        "toleranceDegrees": 1.0,
+        "unit": "degrees"
+      },
+      {
+        "name": "pitch_gradient:roofr-facet-15",
+        "status": "pass",
+        "actual": 22.571698,
+        "expected": 22.619865,
+        "differenceDegrees": 0.048167,
+        "toleranceDegrees": 1.0,
+        "unit": "degrees"
+      },
+      {
+        "name": "pitch_gradient:roofr-facet-16",
+        "status": "pass",
+        "actual": 22.696711,
+        "expected": 22.619865,
+        "differenceDegrees": 0.076846,
+        "toleranceDegrees": 1.0,
+        "unit": "degrees"
+      }
+    ],
+    "summary": {
+      "passCount": 42,
+      "warningCount": 1,
+      "failureCount": 0,
+      "notEvaluableCount": 2,
+      "status": "needs_review"
+    },
+    "scaleHypotheses": {
+      "plan": {
+        "method": "one-sided rounded-dimension RANSAC with trimmed least-squares refinement",
+        "hypothesis": "plan",
+        "status": "calibrated",
+        "feetPerPoint": 0.12585621398082092,
+        "inlierCount": 15,
+        "observationCount": 21,
+        "residualRmsFeet": 0.23361445987141805,
+        "rSquared": 0.9984639059208497,
+        "matches": [
+          {
+            "observation_id": "p3-label-00",
+            "segment_id": "p3-d73-i0-45",
+            "label_feet": 15.0,
+            "predicted_feet": 14.818562899608882,
+            "residual_feet": 0.3185628996088816,
+            "distance_points": 5.308998107910156,
+            "inlier": true
+          },
+          {
+            "observation_id": "p3-label-01",
+            "segment_id": "p3-d65-i0-37",
+            "label_feet": 17.0,
+            "predicted_feet": 16.64700004054552,
+            "residual_feet": 0.14700004054552096,
+            "distance_points": 5.3099822998046875,
+            "inlier": true
+          },
+          {
+            "observation_id": "p3-label-02",
+            "segment_id": "p3-d72-i0-44",
+            "label_feet": 11.0,
+            "predicted_feet": 10.420529625774398,
+            "residual_feet": -0.07947037422560221,
+            "distance_points": 5.292593769501728,
+            "inlier": true
+          },
+          {
+            "observation_id": "p3-label-03",
+            "segment_id": "p3-d69-i0-41",
+            "label_feet": 11.0,
+            "predicted_feet": 10.420529625774398,
+            "residual_feet": -0.07947037422560221,
+            "distance_points": 5.300157584399485,
+            "inlier": true
+          },
+          {
+            "observation_id": "p3-label-04",
+            "segment_id": "p3-d64-i0-36",
+            "label_feet": 11.0,
+            "predicted_feet": 10.499955095865902,
+            "residual_feet": -4.4904134098189274e-05,
+            "distance_points": 5.315940045208484,
+            "inlier": true
+          },
+          {
+            "observation_id": "p3-label-05",
+            "segment_id": "p3-d52-i0-24",
+            "label_feet": 22.0,
+            "predicted_feet": 21.02363603864458,
+            "residual_feet": -0.47636396135542114,
+            "distance_points": 5.315967452262182,
+            "inlier": true
+          },
+          {
+            "observation_id": "p3-label-06",
+            "segment_id": "p3-d63-i0-35",
+            "label_feet": 11.0,
+            "predicted_feet": 10.500044904518173,
+            "residual_feet": 4.4904518173183305e-05,
+            "distance_points": 5.324569388514762,
+            "inlier": true
+          },
+          {
+            "observation_id": "p3-label-07",
+            "segment_id": "p3-d68-i0-40",
+            "label_feet": 32.0,
+            "predicted_feet": 31.628794240141307,
+            "residual_feet": 0.12879424014130691,
+            "distance_points": 5.303009033203125,
+            "inlier": true
+          },
+          {
+            "observation_id": "p3-label-08",
+            "segment_id": "p3-d53-i0-25",
+            "label_feet": 31.0,
+            "predicted_feet": 31.327757913866016,
+            "residual_feet": 0.8277579138660158,
+            "distance_points": 5.3109893798828125,
+            "inlier": false
+          },
+          {
+            "observation_id": "p3-label-09",
+            "segment_id": "p3-d57-i0-29",
+            "label_feet": 12.0,
+            "predicted_feet": 11.086137458524247,
+            "residual_feet": -0.4138625414757531,
+            "distance_points": 5.322121014169164,
+            "inlier": true
+          },
+          {
+            "observation_id": "p3-label-10",
+            "segment_id": "p3-d66-i0-38",
+            "label_feet": 22.0,
+            "predicted_feet": 20.999994557245696,
+            "residual_feet": -0.5000054427543041,
+            "distance_points": 5.315474291634473,
+            "inlier": true
+          },
+          {
+            "observation_id": "p3-label-11",
+            "segment_id": "p3-d59-i0-31",
+            "label_feet": 11.0,
+            "predicted_feet": 9.93749314350256,
+            "residual_feet": -0.5625068564974391,
+            "distance_points": 5.320042935869149,
+            "inlier": false
+          },
+          {
+            "observation_id": "p3-label-12",
+            "segment_id": null,
+            "label_feet": 13.0,
+            "predicted_feet": null,
+            "residual_feet": null,
+            "distance_points": null,
+            "inlier": false
+          },
+          {
+            "observation_id": "p3-label-13",
+            "segment_id": "p3-d67-i0-39",
+            "label_feet": 18.0,
+            "predicted_feet": 17.425044015720168,
+            "residual_feet": -0.07495598427983197,
+            "distance_points": 5.30804443359375,
+            "inlier": true
+          },
+          {
+            "observation_id": "p3-label-14",
+            "segment_id": null,
+            "label_feet": 12.0,
+            "predicted_feet": null,
+            "residual_feet": null,
+            "distance_points": null,
+            "inlier": false
+          },
+          {
+            "observation_id": "p3-label-15",
+            "segment_id": "p3-d24-i0-6",
+            "label_feet": 11.0,
+            "predicted_feet": 10.573055018307548,
+            "residual_feet": 0.07305501830754757,
+            "distance_points": 5.3069915771484375,
+            "inlier": true
+          },
+          {
+            "observation_id": "p3-label-16",
+            "segment_id": "p3-d31-i0-10",
+            "label_feet": 22.0,
+            "predicted_feet": 22.23715451367997,
+            "residual_feet": 0.7371545136799718,
+            "distance_points": 5.3090057373046875,
+            "inlier": false
+          },
+          {
+            "observation_id": "p3-label-17",
+            "segment_id": "p3-d28-i0-7",
+            "label_feet": 17.0,
+            "predicted_feet": 17.14853905048905,
+            "residual_feet": 0.6485390504890489,
+            "distance_points": 5.3100128173828125,
+            "inlier": false
+          },
+          {
+            "observation_id": "p3-label-18",
+            "segment_id": "p3-d30-i0-9",
+            "label_feet": 17.0,
+            "predicted_feet": 16.559550084965412,
+            "residual_feet": 0.05955008496541225,
+            "distance_points": 5.2831834690596695,
+            "inlier": true
+          },
+          {
+            "observation_id": "p3-label-19",
+            "segment_id": "p3-d23-i0-5",
+            "label_feet": 17.0,
+            "predicted_feet": 16.559462842492277,
+            "residual_feet": 0.059462842492276735,
+            "distance_points": 5.307773809149921,
+            "inlier": true
+          },
+          {
+            "observation_id": "p3-label-20",
+            "segment_id": "p3-d29-i0-8",
+            "label_feet": 24.0,
+            "predicted_feet": 23.508810032194862,
+            "residual_feet": 0.008810032194862316,
+            "distance_points": 5.30999755859375,
+            "inlier": true
+          }
+        ],
+        "reason": null
+      },
+      "sloped": {
+        "method": "one-sided rounded-dimension RANSAC with trimmed least-squares refinement",
+        "hypothesis": "sloped",
+        "status": "calibrated",
+        "feetPerPoint": 0.12080421295436296,
+        "inlierCount": 13,
+        "observationCount": 21,
+        "residualRmsFeet": 0.31111893866710094,
+        "rSquared": 0.9974879677540616,
+        "matches": [
+          {
+            "observation_id": "p3-label-00",
+            "segment_id": "p3-d73-i0-45",
+            "label_feet": 15.0,
+            "predicted_feet": 14.223730172550493,
+            "residual_feet": -0.27626982744950723,
+            "distance_points": 5.308998107910156,
+            "inlier": true
+          },
+          {
+            "observation_id": "p3-label-01",
+            "segment_id": "p3-d65-i0-37",
+            "label_feet": 17.0,
+            "predicted_feet": 15.978771920278867,
+            "residual_feet": -0.5212280797211335,
+            "distance_points": 5.3099822998046875,
+            "inlier": false
+          },
+          {
+            "observation_id": "p3-label-02",
+            "segment_id": "p3-d72-i0-44",
+            "label_feet": 11.0,
+            "predicted_feet": 10.83575847025368,
+            "residual_feet": 0.3357584702536798,
+            "distance_points": 5.292593769501728,
+            "inlier": true
+          },
+          {
+            "observation_id": "p3-label-03",
+            "segment_id": "p3-d69-i0-41",
+            "label_feet": 11.0,
+            "predicted_feet": 10.83575847025368,
+            "residual_feet": 0.3357584702536798,
+            "distance_points": 5.300157584399485,
+            "inlier": true
+          },
+          {
+            "observation_id": "p3-label-04",
+            "segment_id": "p3-d64-i0-36",
+            "label_feet": 11.0,
+            "predicted_feet": 10.918348822299624,
+            "residual_feet": 0.4183488222996239,
+            "distance_points": 5.315940045208484,
+            "inlier": true
+          },
+          {
+            "observation_id": "p3-label-05",
+            "segment_id": "p3-d52-i0-24",
+            "label_feet": 22.0,
+            "predicted_feet": 21.861368899888724,
+            "residual_feet": 0.3613688998887241,
+            "distance_points": 5.315967452262182,
+            "inlier": true
+          },
+          {
+            "observation_id": "p3-label-06",
+            "segment_id": "p3-d63-i0-35",
+            "label_feet": 11.0,
+            "predicted_feet": 10.918442209574504,
+            "residual_feet": 0.4184422095745042,
+            "distance_points": 5.324569388514762,
+            "inlier": true
+          },
+          {
+            "observation_id": "p3-label-07",
+            "segment_id": null,
+            "label_feet": 32.0,
+            "predicted_feet": null,
+            "residual_feet": null,
+            "distance_points": null,
+            "inlier": false
+          },
+          {
+            "observation_id": "p3-label-08",
+            "segment_id": "p3-d53-i0-25",
+            "label_feet": 31.0,
+            "predicted_feet": 30.070228705482265,
+            "residual_feet": -0.4297712945177352,
+            "distance_points": 5.3109893798828125,
+            "inlier": true
+          },
+          {
+            "observation_id": "p3-label-09",
+            "segment_id": "p3-d57-i0-29",
+            "label_feet": 12.0,
+            "predicted_feet": 11.527888906095168,
+            "residual_feet": 0.027888906095167698,
+            "distance_points": 5.322121014169164,
+            "inlier": true
+          },
+          {
+            "observation_id": "p3-label-10",
+            "segment_id": "p3-d66-i0-38",
+            "label_feet": 22.0,
+            "predicted_feet": 21.836785371841966,
+            "residual_feet": 0.336785371841966,
+            "distance_points": 5.315474291634473,
+            "inlier": true
+          },
+          {
+            "observation_id": "p3-label-11",
+            "segment_id": "p3-d59-i0-31",
+            "label_feet": 11.0,
+            "predicted_feet": 10.333474340541835,
+            "residual_feet": -0.16652565945816455,
+            "distance_points": 5.320042935869149,
+            "inlier": true
+          },
+          {
+            "observation_id": "p3-label-12",
+            "segment_id": null,
+            "label_feet": 13.0,
+            "predicted_feet": null,
+            "residual_feet": null,
+            "distance_points": null,
+            "inlier": false
+          },
+          {
+            "observation_id": "p3-label-13",
+            "segment_id": "p3-d67-i0-39",
+            "label_feet": 18.0,
+            "predicted_feet": 16.725584390572788,
+            "residual_feet": -0.7744156094272121,
+            "distance_points": 5.30804443359375,
+            "inlier": false
+          },
+          {
+            "observation_id": "p3-label-14",
+            "segment_id": null,
+            "label_feet": 12.0,
+            "predicted_feet": null,
+            "residual_feet": null,
+            "distance_points": null,
+            "inlier": false
+          },
+          {
+            "observation_id": "p3-label-15",
+            "segment_id": "p3-d24-i0-6",
+            "label_feet": 11.0,
+            "predicted_feet": 10.148641450508455,
+            "residual_feet": -0.351358549491545,
+            "distance_points": 5.3069915771484375,
+            "inlier": true
+          },
+          {
+            "observation_id": "p3-label-16",
+            "segment_id": "p3-d31-i0-10",
+            "label_feet": 22.0,
+            "predicted_feet": 21.344531703289892,
+            "residual_feet": -0.15546829671010798,
+            "distance_points": 5.3090057373046875,
+            "inlier": true
+          },
+          {
+            "observation_id": "p3-label-17",
+            "segment_id": "p3-d28-i0-7",
+            "label_feet": 17.0,
+            "predicted_feet": 16.460178625961046,
+            "residual_feet": -0.03982137403895436,
+            "distance_points": 5.3100128173828125,
+            "inlier": true
+          },
+          {
+            "observation_id": "p3-label-18",
+            "segment_id": "p3-d30-i0-9",
+            "label_feet": 17.0,
+            "predicted_feet": 17.21940165622046,
+            "residual_feet": 0.7194016562204588,
+            "distance_points": 5.2831834690596695,
+            "inlier": false
+          },
+          {
+            "observation_id": "p3-label-19",
+            "segment_id": "p3-d23-i0-5",
+            "label_feet": 17.0,
+            "predicted_feet": 17.219310937379745,
+            "residual_feet": 0.7193109373797455,
+            "distance_points": 5.307773809149921,
+            "inlier": false
+          },
+          {
+            "observation_id": "p3-label-20",
+            "segment_id": "p3-d29-i0-8",
+            "label_feet": 24.0,
+            "predicted_feet": 22.565141629524238,
+            "residual_feet": -0.9348583704757623,
+            "distance_points": 5.30999755859375,
+            "inlier": false
+          }
+        ],
+        "reason": null
+      },
+      "chosen": "plan",
+      "slopedEdgeFactorsAvailable": true
+    },
+    "tolerances": {
+      "scalePercent": 3.0,
+      "perFacetAreaPercent": 5.0,
+      "edgeClassTotalPercent": 3.0
+    }
+  },
+  "warnings": [
+    "Page stacking requires roofr-facet-11 above roofr-facet-15; relative level is not supported by shared edges.",
+    "Page stacking requires roofr-facet-12 above roofr-facet-13; relative level is not supported by shared edges.",
+    "Absolute eave elevation is absent; the lowest detected eave is assigned the relative 0 ft datum."
+  ],
+  "diagnostics": {
+    "diagramPage": {
+      "pageNumber": 2,
+      "title": "Diagram",
+      "vectorSegmentCount": 97,
+      "diagramSegmentCount": 97,
+      "numericDiagramLabels": [],
+      "colorLegend": {},
+      "imageCount": 4
+    },
+    "lengthPage": {
+      "pageNumber": 3,
+      "title": "Length measurement report",
+      "vectorSegmentCount": 125,
+      "diagramSegmentCount": 77,
+      "numericDiagramLabels": [
+        "15",
+        "17",
+        "11",
+        "11",
+        "11",
+        "22",
+        "11",
+        "32",
+        "31",
+        "12",
+        "22",
+        "11",
+        "13",
+        "18",
+        "12",
+        "11",
+        "22",
+        "17",
+        "17",
+        "17",
+        "24"
+      ],
+      "colorLegend": {
+        "#70a678": "eave",
+        "#f0522e": "valley",
+        "#9469b8": "hip",
+        "#4a8aff": "ridge",
+        "#ffcc0f": "rake",
+        "#fa69ff": "transition",
+        "#54d4fc": "unspecified",
+        "#ffffff": "curb_flashing",
+        "#ffa324": "parapet"
+      },
+      "imageCount": 4
+    },
+    "areaPage": {
+      "pageNumber": 4,
+      "title": "Area measurement report",
+      "vectorSegmentCount": 73,
+      "diagramSegmentCount": 73,
+      "numericDiagramLabels": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "25",
+        "58",
+        "16",
+        "203",
+        "248",
+        "265",
+        "25",
+        "25",
+        "209",
+        "32",
+        "8",
+        "8",
+        "43",
+        "204",
+        "189",
+        "145"
+      ],
+      "colorLegend": {},
+      "imageCount": 4
+    },
+    "pitchPage": {
+      "pageNumber": 5,
+      "title": "Pitch & direction measurement report",
+      "vectorSegmentCount": 177,
+      "diagramSegmentCount": 177,
+      "numericDiagramLabels": [
+        "5",
+        "5",
+        "5",
+        "5",
+        "5",
+        "5",
+        "4",
+        "4",
+        "5",
+        "5",
+        "5",
+        "5",
+        "5",
+        "5",
+        "5",
+        "5"
+      ],
+      "colorLegend": {},
+      "imageCount": 4
+    },
+    "unmatchedAreaLabels": [],
+    "unmatchedPitchLabels": [],
+    "dashedLineEvidence": {
+      "areaPageFootnotes": [
+        "then rounded. Deleted facets (skylights, chimneys, etc.) are designated with a dashed line and are excluded from the calculations."
+      ],
+      "pitchPageFootnotes": [
+        "Deleted facets are designated with a dashed line and do not have a pitch."
+      ],
+      "areaPageDashedDrawingCount": 0,
+      "pitchPageDashedDrawingCount": 0,
+      "dashedFacetPolicy": "Dashed paths are excluded only when page text identifies deleted facets; no dimensions or pitches are inferred from them."
+    }
+  },
+  "assumptions": [
+    "Roofr area labels are rounded; comparison uses a one-sided 1 sq ft interval.",
+    "A relative eave datum is used only when the vector legend identifies eaves.",
+    "Absolute eave and wall heights are estimates and are not reported measurements."
+  ],
+  "sourceFormat": "roofr",
+  "source": "extracted",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "widthPoints": 595.28,
+      "heightPoints": 841.89,
+      "title": "Roof Report",
+      "wordCount": 35,
+      "drawingCount": 0,
+      "vectorSegmentCount": 0,
+      "itemTypeCounts": {},
+      "imageCount": 4,
+      "vectorSupported": false,
+      "colorLegend": {},
+      "coordinatesArePagePoints": true
+    },
+    {
+      "pageNumber": 2,
+      "widthPoints": 595.28,
+      "heightPoints": 841.89,
+      "title": "Diagram",
+      "wordCount": 26,
+      "drawingCount": 22,
+      "vectorSegmentCount": 97,
+      "itemTypeCounts": {
+        "l": 73,
+        "qu": 6
+      },
+      "imageCount": 4,
+      "vectorSupported": true,
+      "colorLegend": {},
+      "coordinatesArePagePoints": true
+    },
+    {
+      "pageNumber": 3,
+      "widthPoints": 595.28,
+      "heightPoints": 841.89,
+      "title": "Length measurement report",
+      "wordCount": 105,
+      "drawingCount": 74,
+      "vectorSegmentCount": 125,
+      "itemTypeCounts": {
+        "l": 125
+      },
+      "imageCount": 4,
+      "vectorSupported": true,
+      "colorLegend": {
+        "#70a678": "eave",
+        "#f0522e": "valley",
+        "#9469b8": "hip",
+        "#4a8aff": "ridge",
+        "#ffcc0f": "rake",
+        "#fa69ff": "transition",
+        "#54d4fc": "unspecified",
+        "#ffffff": "curb_flashing",
+        "#ffa324": "parapet"
+      },
+      "coordinatesArePagePoints": true
+    },
+    {
+      "pageNumber": 4,
+      "widthPoints": 595.28,
+      "heightPoints": 841.89,
+      "title": "Area measurement report",
+      "wordCount": 124,
+      "drawingCount": 16,
+      "vectorSegmentCount": 73,
+      "itemTypeCounts": {
+        "qu": 6,
+        "l": 49
+      },
+      "imageCount": 4,
+      "vectorSupported": true,
+      "colorLegend": {},
+      "coordinatesArePagePoints": true
+    },
+    {
+      "pageNumber": 5,
+      "widthPoints": 595.28,
+      "heightPoints": 841.89,
+      "title": "Pitch & direction measurement report",
+      "wordCount": 60,
+      "drawingCount": 38,
+      "vectorSegmentCount": 177,
+      "itemTypeCounts": {
+        "l": 153,
+        "qu": 6
+      },
+      "imageCount": 4,
+      "vectorSupported": true,
+      "colorLegend": {},
+      "coordinatesArePagePoints": true
+    },
+    {
+      "pageNumber": 6,
+      "widthPoints": 595.28,
+      "heightPoints": 841.89,
+      "title": "Prepared by",
+      "wordCount": 207,
+      "drawingCount": 101,
+      "vectorSegmentCount": 413,
+      "itemTypeCounts": {
+        "l": 73,
+        "qu": 6,
+        "re": 79
+      },
+      "imageCount": 4,
+      "vectorSupported": true,
+      "colorLegend": {
+        "#e3ebf5": "valley"
+      },
+      "coordinatesArePagePoints": true
+    },
+    {
+      "pageNumber": 7,
+      "widthPoints": 595.28,
+      "heightPoints": 841.89,
+      "title": "Prepared by",
+      "wordCount": 365,
+      "drawingCount": 204,
+      "vectorSegmentCount": 816,
+      "itemTypeCounts": {
+        "re": 204
+      },
+      "imageCount": 4,
+      "vectorSupported": true,
+      "colorLegend": {},
+      "coordinatesArePagePoints": true
+    }
+  ],
+  "sourcePdf": "17 Deacon Place, St_ Albert, AB T8N 6S5.pdf"
+}

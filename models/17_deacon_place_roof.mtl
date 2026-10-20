@@ -1,0 +1,16 @@
+# Pitch colors are for visualization only; material is not specified in the report.
+newmtl pitch_4_12
+Ka 0.18 0.28 0.36
+Kd 0.42 0.65 0.85
+Ks 0.08 0.08 0.08
+Ns 24
+illum 2
+d 1.0
+
+newmtl pitch_5_12
+Ka 0.12 0.17 0.20
+Kd 0.25 0.33 0.38
+Ks 0.08 0.08 0.08
+Ns 24
+illum 2
+d 1.0

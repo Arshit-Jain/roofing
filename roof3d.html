@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>83 Rue Falardeau – 3D roof</title>
+<style>
+:root{--bg:#eef1f4;--fg:#1d2630;--card:rgba(255,255,255,.92);--bd:#cfd6dd;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12161b;--fg:#e6ebf0;--card:rgba(30,36,43,.92);--bd:#343c45}}
+:root[data-theme="dark"]{--bg:#12161b;--fg:#e6ebf0;--card:rgba(30,36,43,.92);--bd:#343c45}
+html,body{margin:0;height:100%;background:var(--bg);color:var(--fg);font:14px/1.4 system-ui,-apple-system,"Segoe UI",sans-serif;overflow:hidden}
+#app{position:relative;height:100%}
+#c{position:absolute;inset:0;width:100%;height:100%;touch-action:none}
+#p{position:absolute;left:10px;top:10px;max-width:250px;background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:10px 12px}
+#p label{display:block;margin-top:6px}
+#p input[type=range]{width:100%}
+.s{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px}
+small{opacity:.7}
+</style></head><body>
+<div id="app"><canvas id="c"></canvas>
+<div id="p"><b>83 Rue Falardeau</b><br><small>Drag to orbit · scroll or pinch to zoom</small>
+<label><input type="checkbox" id="pc"> Color by pitch</label>
+<div style="margin-top:6px"><button id="v3">3D view</button> <button id="vt">Top view (page 2)</button></div>
+<div style="margin-top:8px"><span class="s" style="background:#6aa6d9"></span>1/12 · 515 sqft<br><span class="s" style="background:#5fbf9f"></span>3/12 · 201 sqft<br><span class="s" style="background:#e8985a"></span>6/12 · 443 sqft</div>
+<small>Stacking follows page 2: hip roof over flat roof, big flat over small flat. Absolute heights are estimated.</small></div></div>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+<script>
+const T=THREE,GR=-9;
+// Plan coords (ft) traced from the report diagram: u = right, v = up on the page. Height h is derived from pitch × run.
+const H=u=>u<=8.83?.5*u:u<=16.5?4.415-.5*(u-8.83):.58-.25*(u-16.5);
+const cv=document.getElementById('c');
+const R=new T.WebGLRenderer({canvas:cv,antialias:true,alpha:true});
+R.setPixelRatio(Math.min(devicePixelRatio,2));
+const S=new T.Scene(),C=new T.PerspectiveCamera(40,1,.1,500);
+C.position.set(32,38,58);
+const O=new T.OrbitControls(C,cv);O.target.set(0,4,0);O.update();
+S.add(new T.HemisphereLight(0xffffff,0x667788,.85));
+const D=new T.DirectionalLight(0xffffff,.9);D.position.set(30,60,20);S.add(D);
+const grp=new T.Group();grp.position.set(-12.6,0,25);S.add(grp);
+const V=p=>[p[0],p[2],-p[1]];
+function mesh(tris,color,edge){
+  const a=[];tris.forEach(t=>t.forEach(p=>a.push(...V(p))));
+  const g=new T.BufferGeometry();g.setAttribute('position',new T.Float32BufferAttribute(a,3));g.computeVertexNormals();
+  grp.add(new T.Mesh(g,new T.MeshStandardMaterial({color,flatShading:true,side:T.DoubleSide,roughness:.9})));
+  if(edge)grp.add(new T.LineSegments(new T.EdgesGeometry(g,1),new T.LineBasicMaterial({color:0x111111})));
+}
+function face(pts,color){
+  const idx=T.ShapeUtils.triangulateShape(pts.map(p=>new T.Vector2(p[0],p[1])),[]);
+  mesh(idx.map(i=>i.map(k=>pts[k])),color,true);
+}
+function walls(pts,color){
+  const t=[];
+  pts.forEach((p,i)=>{const q=pts[(i+1)%pts.length],a=[p[0],p[1],GR],b=[q[0],q[1],GR];t.push([p,q,b],[p,b,a]);});
+  mesh(t,color,false);
+}
+function build(){
+  while(grp.children.length)grp.remove(grp.children[0]);
+  const bp=pc.checked,c1=bp?0x6aa6d9:0x2f3338,c3=bp?0x5fbf9f:0x4b4f55,c6=bp?0xe8985a:0x4b4f55,W=0xd9d2c3;
+  const h=p=>[p[0],p[1],p[2]===undefined?H(p[0]):p[2]];
+  // pitched roofs: 6/12 west slope, south hip, 6/12 east slope (notched), 3/12 lower east slope
+  face([[0,0],[8.83,5.73],[8.83,25],[0,25]].map(h),c6);
+  face([[0,0,0],[18,0,-.17],[8.83,5.73,4.415]],c6);
+  face([[8.83,5.73],[8.83,25],[14.33,25],[14.33,23.05],[16.5,23.05],[16.5,.94]].map(h),c6);
+  face([[16.5,23.05],[25.17,23.05],[25.17,1.3],[18,1.3],[18,0,-.17],[16.5,.94]].map(h),c3);
+  // fixed walls under the hip roof (top edge follows the roof boundary)
+  walls([[0,0,0],[18,0,-.17],[18,1.3,.205],[25.17,1.3,-1.59],[25.17,23.05,-1.59],[16.5,23.05,.58],[14.33,23.05,1.665],[14.33,25,1.665],[8.83,25,4.415],[0,25,0]],W);
+  // 1/12 flat roofs, drain toward +v. Big flat sits below the hip roof and above the small flat (page 2 stacking)
+  const flat=(u0,u1,v0,v1,b)=>{const r=[[u0,v0],[u1,v0],[u1,v1],[u0,v1]].map(p=>[p[0],p[1],b-(p[1]-v0)/12]);face(r,c1);walls(r,W);};
+  flat(0,12.96,39.85,50.1,-2);
+  flat(2.69,22.25,23.05,45.53,.58);
+}
+pc.addEventListener('input',build);
+v3.onclick=()=>{C.position.set(32,38,58);O.target.set(0,2,0);O.update();};
+vt.onclick=()=>{C.position.set(0,110,.01);O.target.set(0,0,0);O.update();};
+function size(){const a=document.getElementById('app');R.setSize(a.clientWidth,a.clientHeight,false);C.aspect=a.clientWidth/a.clientHeight;C.updateProjectionMatrix();}
+addEventListener('resize',size);size();build();
+(function loop(){requestAnimationFrame(loop);O.update();R.render(S,C);})();
+</script></body></html>

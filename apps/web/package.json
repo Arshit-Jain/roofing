@@ -1,0 +1,38 @@
+{
+  "name": "roofing-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "predev": "node scripts/sync-roof-geometry.mjs",
+    "dev": "next dev",
+    "prebuild": "node scripts/sync-roof-geometry.mjs",
+    "build": "next build --webpack",
+    "prestart": "node scripts/sync-roof-geometry.mjs",
+    "start": "next start",
+    "test": "node scripts/test-roof-geometry.mjs",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@react-three/drei": "10.7.7",
+    "@react-three/fiber": "9.8.1",
+    "@firebase/app": "0.16.2",
+    "@firebase/auth": "1.13.6",
+    "lucide-react": "0.563.0",
+    "next": "16.4.2",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "three": "0.183.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.1.18",
+    "@types/node": "25.1.0",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@types/three": "0.183.1",
+    "eslint": "10.13.0",
+    "eslint-config-next": "16.4.2",
+    "tailwindcss": "4.1.18",
+    "typescript": "5.9.3"
+  }
+}

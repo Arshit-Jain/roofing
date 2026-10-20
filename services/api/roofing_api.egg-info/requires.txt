@@ -1,0 +1,16 @@
+fastapi==0.141.1
+uvicorn[standard]==0.38.0
+pydantic==2.14.1
+pydantic-settings==2.14.1
+python-multipart==0.0.20
+python-dotenv==1.2.1
+firebase-admin==7.1.0
+google-genai==2.31.0
+PyMuPDF==1.27.2
+
+[dev]
+pytest==9.0.2
+httpx==0.28.1
+ruff==0.14.10
+mypy==1.19.1
+pytest-cov==7.0.0
